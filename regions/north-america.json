@@ -25,16 +25,156 @@
 		"type": "area",
 		"parent": "usa",
 		"description": "Kelp forests, Channel Islands, and sea lion encounters.",
-		"coordinates": [34.0522, -118.2437]
+		"coordinates": [34.0522, -118.2437],
+		"bestTime": "May–October for best conditions.",
+		"floraFauna": ["kelp forests", "sea lions", "garibaldi", "octopus", "nudibranchs", "giant black sea bass"],
+		"tags": ["kelp", "cold", "temperate", "shore diving", "macro"],
+		"image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&h=600&fit=crop"
 	},
-		"florida": {
-			"id": "florida",
-			"name": "Florida",
-			"type": "area",
-			"parent": "usa",
-			"description": "Wrecks, reefs, and freshwater springs from the Keys to the Panhandle.",
-			"coordinates": [27.9944, -81.7603]
+
+		"monterey": {
+			"id": "monterey",
+			"name": "Monterey",
+			"type": "subarea",
+			"parent": "california",
+			"description": "World-famous kelp forests, sea otters, harbor seals, and macro life. Cold water diving with dramatic underwater topography and rich biodiversity.",
+			"coordinates": [36.6189, -121.9018],
+			"bestTime": "September–November for best visibility; diving possible year-round.",
+			"floraFauna": ["kelp forests", "sea otters", "harbor seals", "nudibranchs", "giant kelp", "rockfish", "octopus", "anemones"],
+			"tags": ["kelp", "cold", "shore diving", "macro", "photography", "otters"],
+			"image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
 		},
+
+		"san-diego": {
+			"id": "san-diego",
+			"name": "San Diego",
+			"type": "subarea",
+			"parent": "california",
+			"description": "Kelp forests, La Jolla Cove sea lions, leopard sharks, and wrecks. Accessible shore and boat diving with abundant marine life.",
+			"coordinates": [32.7157, -117.1611],
+			"bestTime": "July–October for warmest water and best visibility.",
+			"floraFauna": ["kelp forests", "sea lions", "leopard sharks", "bat rays", "garibaldi", "sheephead", "octopus", "nudibranchs"],
+			"tags": ["kelp", "shore diving", "wrecks", "macro", "sea lions", "sharks"],
+			"image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800&h=600&fit=crop"
+		},
+
+		"channel-islands": {
+			"id": "channel-islands",
+			"name": "Channel Islands",
+			"type": "subarea",
+			"parent": "california",
+			"description": "Remote, protected islands with pristine kelp forests, sea lions, garibaldi, and clear water. Includes Anacapa, Santa Cruz, Santa Barbara, and more.",
+			"coordinates": [34.0069, -119.7785],
+			"bestTime": "July–October for warmest water and best visibility.",
+			"floraFauna": ["kelp forests", "sea lions", "garibaldi", "sheephead", "nudibranchs", "bat rays", "octopus"],
+			"tags": ["kelp", "boat diving", "clear water", "protected", "islands"],
+			"image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
+		},
+
+		"catalina": {
+			"id": "catalina",
+			"name": "Catalina Island",
+			"type": "subarea",
+			"parent": "channel-islands",
+			"description": "Famous for kelp forests, giant black sea bass, bat rays, and clear water. Casino Point is a top shore dive site.",
+			"coordinates": [33.3879, -118.4163],
+			"bestTime": "July–October for best conditions.",
+			"floraFauna": ["kelp forests", "giant black sea bass", "bat rays", "garibaldi", "octopus", "nudibranchs"],
+			"tags": ["kelp", "clear water", "shore diving", "boat diving", "island"],
+			"image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=800&h=600&fit=crop"
+		},
+
+		"anacapa": {
+			"id": "anacapa",
+			"name": "Anacapa Island",
+			"type": "subarea",
+			"parent": "channel-islands",
+			"description": "Smallest Channel Island, known for kelp forests, sea lions, and arch dive sites.",
+			"coordinates": [34.0167, -119.3667],
+			"bestTime": "July–October for best conditions.",
+			"floraFauna": ["kelp forests", "sea lions", "garibaldi", "octopus", "nudibranchs"],
+			"tags": ["kelp", "boat diving", "island", "sea lions"],
+			"image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800&h=600&fit=crop"
+		},
+
+		"point-lobos": {
+			"id": "point-lobos",
+			"name": "Point Lobos",
+			"type": "subarea",
+			"parent": "california",
+			"description": "Marine reserve near Carmel, famous for healthy kelp forests, harbor seals, and macro life.",
+			"coordinates": [36.5156, -121.9426],
+			"bestTime": "September–November for best visibility.",
+			"floraFauna": ["kelp forests", "harbor seals", "nudibranchs", "rockfish", "octopus"],
+			"tags": ["kelp", "protected", "macro", "shore diving"],
+			"image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&h=600&fit=crop"
+		},
+
+		"big-sur": {
+			"id": "big-sur",
+			"name": "Big Sur",
+			"type": "subarea",
+			"parent": "california",
+			"description": "Dramatic, remote coastline with kelp forests, sea otters, and challenging conditions. Advanced diving only.",
+			"coordinates": [36.2704, -121.8081],
+			"bestTime": "September–November for best visibility.",
+			"floraFauna": ["kelp forests", "sea otters", "nudibranchs", "rockfish", "octopus"],
+			"tags": ["kelp", "advanced", "remote", "macro"],
+			"image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&h=600&fit=crop"
+		},
+
+		"palos-verdes": {
+			"id": "palos-verdes",
+			"name": "Palos Verdes",
+			"type": "subarea",
+			"parent": "california",
+			"description": "Rocky reefs, kelp forests, and macro life near Los Angeles. Popular shore diving spots include Old Marineland and Malaga Cove.",
+			"coordinates": [33.7445, -118.3870],
+			"bestTime": "July–October for best conditions.",
+			"floraFauna": ["kelp forests", "garibaldi", "octopus", "nudibranchs", "sheephead"],
+			"tags": ["kelp", "shore diving", "macro", "urban"],
+			"image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=800&h=600&fit=crop"
+		},
+
+		"malibu": {
+			"id": "malibu",
+			"name": "Malibu",
+			"type": "subarea",
+			"parent": "california",
+			"description": "Iconic beaches, kelp forests, and rocky reefs. Sites like Leo Carrillo and Paradise Cove are popular for shore diving.",
+			"coordinates": [34.0259, -118.7798],
+			"bestTime": "July–October for best conditions.",
+			"floraFauna": ["kelp forests", "garibaldi", "octopus", "nudibranchs"],
+			"tags": ["kelp", "shore diving", "beaches"],
+			"image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
+		},
+
+		"la-jolla": {
+			"id": "la-jolla",
+			"name": "La Jolla",
+			"type": "subarea",
+			"parent": "san-diego",
+			"description": "Famous for sea lion and leopard shark encounters, kelp forests, and accessible shore diving at La Jolla Cove and Shores.",
+			"coordinates": [32.8498, -117.2703],
+			"bestTime": "July–October for best conditions.",
+			"floraFauna": ["kelp forests", "sea lions", "leopard sharks", "bat rays", "garibaldi", "octopus", "nudibranchs"],
+			"tags": ["kelp", "shore diving", "sea lions", "sharks"],
+			"image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800&h=600&fit=crop"
+		},
+
+
+
+
+
+	"florida": {
+		"id": "florida",
+		"name": "Florida",
+		"type": "area",
+		"parent": "usa",
+		"description": "Wrecks, reefs, and freshwater springs from the Keys to the Panhandle.",
+		"coordinates": [27.9944, -81.7603]
+	},
+
 		"florida-keys": {
 			"id": "florida-keys",
 			"name": "Florida Keys",
