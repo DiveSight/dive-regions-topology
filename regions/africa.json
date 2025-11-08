@@ -5,7 +5,13 @@
     "name": "Africa",
     "type": "major",
     "description": "Dramatic coastlines and unique marine ecosystems",
-    "coordinates": [0.0, 20.0]
+    "coordinates": [0.0, 20.0],
+    "bestTime": "Varies by region; generally May–October for southern Africa, October–April for Red Sea.",
+    "floraFauna": [
+      "kelp forests", "hard corals", "soft corals", "reef sharks", "great white sharks", "ragged-tooth sharks", "sardines", "seals", "turtles", "dolphins", "whales"
+    ],
+    "tags": ["diverse", "big animals", "kelp", "coral", "wrecks", "seasonal"],
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
   },
   "south-africa": {
     "id": "south-africa",
@@ -13,7 +19,13 @@
     "type": "country",
     "parent": "africa",
     "description": "Shark diving, sardine run, kelp forests, and subtropical reefs.",
-    "coordinates": [-30.5595, 22.9375]
+    "coordinates": [-30.5595, 22.9375],
+    "bestTime": "May–September for sharks and sardine run; year-round for kelp forests.",
+    "floraFauna": [
+      "great white sharks", "ragged-tooth sharks", "sardines", "seals", "kelp forests", "reef fish"
+    ],
+    "tags": ["sharks", "kelp", "sardine run", "big animals", "cold", "temperate", "adventure"],
+    "image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800&h=600&fit=crop"
   },
   "mozambique": {
     "id": "mozambique",
@@ -21,7 +33,13 @@
     "type": "country",
     "parent": "africa",
     "description": "Whale sharks, manta rays, and pristine Indian Ocean beaches.",
-    "coordinates": [-18.6657, 35.5296]
+    "coordinates": [-18.6657, 35.5296],
+    "bestTime": "May–November for best visibility and big animals.",
+    "floraFauna": [
+      "whale sharks", "manta rays", "turtles", "dolphins", "hard corals", "soft corals", "reef fish"
+    ],
+    "tags": ["whale sharks", "mantas", "tropical", "coral", "big animals", "beaches"],
+    "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&h=600&fit=crop"
   },
   "tanzania": {
     "id": "tanzania",
@@ -29,7 +47,13 @@
     "type": "country",
     "parent": "africa",
     "description": "Zanzibar, Mafia Island, and vibrant coral reefs.",
-    "coordinates": [-6.3690, 34.8888]
+    "coordinates": [-6.3690, 34.8888],
+    "bestTime": "October–March for best conditions.",
+    "floraFauna": [
+      "hard corals", "soft corals", "whale sharks", "turtles", "dolphins", "reef fish"
+    ],
+    "tags": ["tropical", "coral", "whale sharks", "reefs", "islands"],
+    "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&h=600&fit=crop"
   },
   "kenya": {
     "id": "kenya",
@@ -37,7 +61,13 @@
     "type": "country",
     "parent": "africa",
     "description": "Indian Ocean reefs, turtles, and big pelagics.",
-    "coordinates": [-1.2921, 36.8219]
+    "coordinates": [-1.2921, 36.8219],
+    "bestTime": "October–March for best visibility and pelagics.",
+    "floraFauna": [
+      "hard corals", "soft corals", "turtles", "reef sharks", "dolphins", "whale sharks"
+    ],
+    "tags": ["tropical", "coral", "turtles", "big animals", "reefs"],
+    "image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=800&h=600&fit=crop"
   },
   "sudan": {
     "id": "sudan",
@@ -45,7 +75,13 @@
     "type": "country",
     "parent": "africa",
     "description": "Red Sea wrecks, sharks, and pristine reefs.",
-    "coordinates": [12.8628, 30.2176]
+    "coordinates": [12.8628, 30.2176],
+    "bestTime": "October–June for best conditions.",
+    "floraFauna": [
+      "hammerhead sharks", "reef sharks", "hard corals", "soft corals", "barracuda", "turtles"
+    ],
+    "tags": ["red sea", "sharks", "wrecks", "pristine", "coral", "advanced"],
+    "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&h=600&fit=crop"
   },
   "djibouti": {
     "id": "djibouti",
@@ -53,7 +89,13 @@
     "type": "country",
     "parent": "africa",
     "description": "Whale sharks, Gulf of Tadjoura, and unique marine life.",
-    "coordinates": [11.8251, 42.5903]
+    "coordinates": [11.8251, 42.5903],
+    "bestTime": "November–February for whale sharks.",
+    "floraFauna": [
+      "whale sharks", "hard corals", "soft corals", "reef fish"
+    ],
+    "tags": ["whale sharks", "tropical", "unique", "coral", "seasonal"],
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
   },
   "somalia": {
     "id": "somalia",
@@ -61,7 +103,13 @@
     "type": "country",
     "parent": "africa",
     "description": "Untouched Indian Ocean reefs and remote diving.",
-    "coordinates": [5.1521, 46.1996]
+    "coordinates": [5.1521, 46.1996],
+    "bestTime": "October–March for best conditions.",
+    "floraFauna": [
+      "hard corals", "soft corals", "reef sharks", "turtles", "pelagics"
+    ],
+    "tags": ["remote", "pristine", "coral", "tropical", "exploration"],
+    "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&h=600&fit=crop"
   },
   "morocco": {
     "id": "morocco",
@@ -69,7 +117,13 @@
     "type": "country",
     "parent": "africa",
     "description": "Atlantic coast diving, kelp forests, and rocky reefs.",
-    "coordinates": [31.7917, -7.0926]
+    "coordinates": [31.7917, -7.0926],
+    "bestTime": "May–October for best conditions.",
+    "floraFauna": [
+      "kelp forests", "rocky reefs", "octopus", "atlantic fish"
+    ],
+    "tags": ["kelp", "atlantic", "rocky reefs", "temperate", "shore diving"],
+    "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&h=600&fit=crop"
   },
   "senegal": {
     "id": "senegal",
@@ -77,7 +131,13 @@
     "type": "country",
     "parent": "africa",
     "description": "Wrecks, reefs, and Atlantic marine life off West Africa.",
-    "coordinates": [14.4974, -14.4524]
+    "coordinates": [14.4974, -14.4524],
+    "bestTime": "November–May for best visibility.",
+    "floraFauna": [
+      "atlantic fish", "wrecks", "hard corals", "soft corals", "dolphins", "turtles"
+    ],
+    "tags": ["atlantic", "wrecks", "reefs", "temperate", "shore diving"],
+    "image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=800&h=600&fit=crop"
   },
   "cape-verde": {
     "id": "cape-verde",
@@ -85,6 +145,12 @@
     "type": "country",
     "parent": "africa",
     "description": "Volcanic islands, caves, and big Atlantic pelagics.",
-    "coordinates": [16.5388, -23.0418]
+    "coordinates": [16.5388, -23.0418],
+    "bestTime": "March–November for best diving.",
+    "floraFauna": [
+      "volcanic reefs", "pelagic fish", "turtles", "rays", "caves"
+    ],
+    "tags": ["volcanic", "pelagics", "atlantic", "caves", "adventure"],
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
   }
 }

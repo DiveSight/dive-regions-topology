@@ -4,7 +4,11 @@
     "name": "East Asia",
     "type": "major",
     "description": "Diverse diving from subtropical reefs to temperate kelp forests, including Japan, Korea, and Taiwan.",
-    "coordinates": [30.0, 135.0]
+    "coordinates": [30.0, 135.0],
+    "bestTime": "May–October for subtropical, June–November for temperate.",
+    "floraFauna": ["hard corals", "soft corals", "kelp forests", "reef fish", "manta rays", "hammerhead sharks", "humpback whales", "nudibranchs"],
+    "tags": ["subtropical", "temperate", "coral", "kelp", "reefs", "macro", "big animals"],
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
   },
   "japan": {
     "id": "japan",
@@ -12,7 +16,11 @@
     "type": "country",
     "parent": "east-asia",
     "description": "Island nation with world-class diving: subtropical Okinawa, temperate Izu, and unique marine life.",
-    "coordinates": [36.2048, 138.2529]
+    "coordinates": [36.2048, 138.2529],
+    "bestTime": "May–October for Okinawa, June–November for Izu.",
+    "floraFauna": ["hard corals", "soft corals", "kelp forests", "reef fish", "manta rays", "hammerhead sharks", "nudibranchs", "sea turtles"],
+    "tags": ["subtropical", "temperate", "coral", "kelp", "reefs", "macro", "big animals", "unique species"],
+    "image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800&h=600&fit=crop"
   },
   "okinawa": {
     "id": "okinawa",
@@ -20,7 +28,11 @@
     "type": "area",
     "parent": "japan",
     "description": "Subtropical reefs, WWII wrecks, and manta rays in Japan's southern islands.",
-    "coordinates": [26.3344, 127.8056]
+    "coordinates": [26.3344, 127.8056],
+    "bestTime": "May–October for best conditions.",
+    "floraFauna": ["hard corals", "soft corals", "reef fish", "manta rays", "sea turtles", "nudibranchs"],
+    "tags": ["subtropical", "coral", "reefs", "macro", "big animals"],
+    "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&h=600&fit=crop"
   },
   "kerama-islands": {
     "id": "kerama-islands",
@@ -28,7 +40,11 @@
     "type": "subarea",
     "parent": "okinawa",
     "description": "Crystal-clear waters, coral gardens, and humpback whales in winter.",
-    "coordinates": [26.1767, 127.2897]
+    "coordinates": [26.1767, 127.2897],
+    "bestTime": "January–April for humpbacks, May–October for diving.",
+    "floraFauna": ["hard corals", "soft corals", "reef fish", "humpback whales", "sea turtles", "nudibranchs"],
+    "tags": ["subtropical", "coral", "reefs", "macro", "big animals", "clear water"],
+    "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&h=600&fit=crop"
   },
   "yonaguni": {
     "id": "yonaguni",
@@ -36,7 +52,11 @@
     "type": "subarea",
     "parent": "okinawa",
     "description": "Famous for hammerhead sharks and the mysterious underwater ruins.",
-    "coordinates": [24.4672, 122.9386]
+    "coordinates": [24.4672, 122.9386],
+    "bestTime": "December–April for hammerheads.",
+    "floraFauna": ["hammerhead sharks", "hard corals", "soft corals", "reef fish", "nudibranchs"],
+    "tags": ["subtropical", "coral", "reefs", "macro", "big animals", "adventure"],
+    "image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=800&h=600&fit=crop"
   },
   "izu-peninsula": {
     "id": "izu-peninsula",
@@ -44,7 +64,11 @@
     "type": "area",
     "parent": "japan",
     "description": "Accessible from Tokyo, with temperate reefs, macro life, and volcanic topography.",
-    "coordinates": [34.9000, 138.9500]
+    "coordinates": [34.9000, 138.9500],
+    "bestTime": "June–November for best conditions.",
+    "floraFauna": ["kelp forests", "reef fish", "nudibranchs", "octopus", "soft corals"],
+    "tags": ["temperate", "kelp", "reefs", "macro", "volcanic"],
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
   },
   "ogawawara-islands": {
     "id": "ogasawara-islands",
@@ -52,6 +76,10 @@
     "type": "area",
     "parent": "japan",
     "description": "Remote Pacific islands with dolphins, whales, and endemic species.",
-    "coordinates": [27.0947, 142.1917]
+    "coordinates": [27.0947, 142.1917],
+    "bestTime": "June–October for best conditions.",
+    "floraFauna": ["dolphins", "whales", "hard corals", "soft corals", "reef fish", "endemic species"],
+    "tags": ["remote", "unique species", "reefs", "big animals", "adventure"],
+    "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&h=600&fit=crop"
   }
 }

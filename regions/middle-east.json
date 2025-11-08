@@ -5,7 +5,11 @@
     "name": "Middle East",
     "type": "major",
     "description": "World-class diving in the Red Sea and Persian Gulf",
-    "coordinates": [25.0, 45.0]
+    "coordinates": [25.0, 45.0],
+    "bestTime": "March–June and September–November for best conditions.",
+    "floraFauna": ["hard corals", "soft corals", "reef fish", "sharks", "turtles", "dolphins", "groupers"],
+    "tags": ["tropical", "coral", "reefs", "wrecks", "big animals", "pristine"],
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
   },
   "red-sea": {
     "id": "red-sea",
@@ -13,7 +17,11 @@
     "type": "area",
     "parent": "middle-east",
     "description": "Legendary for its coral reefs, wrecks, and clear warm waters, spanning Egypt, Sudan, Jordan, Israel, and Saudi Arabia.",
-    "coordinates": [22.0, 38.0]
+    "coordinates": [22.0, 38.0],
+    "bestTime": "March–June and September–November for best conditions.",
+    "floraFauna": ["hard corals", "soft corals", "reef fish", "sharks", "turtles", "dolphins", "groupers"],
+    "tags": ["tropical", "coral", "reefs", "wrecks", "big animals", "pristine"],
+    "image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800&h=600&fit=crop"
   },
   "egypt": {
     "id": "egypt",
@@ -21,7 +29,11 @@
     "type": "country",
     "parent": "red-sea",
     "description": "Red Sea mecca: Ras Mohammed, Brothers, and Thistlegorm wreck.",
-    "coordinates": [26.8206, 30.8025]
+    "coordinates": [26.8206, 30.8025],
+    "bestTime": "March–June and September–November for best conditions.",
+    "floraFauna": ["hard corals", "soft corals", "reef fish", "sharks", "turtles", "dolphins", "groupers"],
+    "tags": ["tropical", "coral", "reefs", "wrecks", "big animals", "iconic"],
+    "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&h=600&fit=crop"
   },
   "jordan": {
     "id": "jordan",
@@ -29,7 +41,11 @@
     "type": "country",
     "parent": "red-sea",
     "description": "Aqaba's coral reefs and wrecks at the tip of the Red Sea.",
-    "coordinates": [29.5328, 35.0061]
+    "coordinates": [29.5328, 35.0061],
+    "bestTime": "March–June and September–November for best conditions.",
+    "floraFauna": ["hard corals", "soft corals", "reef fish", "sharks", "turtles", "dolphins"],
+    "tags": ["tropical", "coral", "reefs", "wrecks", "easy"],
+    "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&h=600&fit=crop"
   },
   "israel": {
     "id": "israel",

@@ -5,7 +5,11 @@
     "name": "South Pacific",
     "type": "major",
     "description": "Pristine coral atolls and pelagic encounters",
-    "coordinates": [-15.0, 170.0]
+    "coordinates": [-15.0, 170.0],
+    "bestTime": "May–October for best conditions, varies by island.",
+    "floraFauna": ["hard corals", "soft corals", "reef fish", "sharks", "manta rays", "turtles", "groupers", "humpback whales"],
+    "tags": ["tropical", "coral", "reefs", "big animals", "pristine", "atolls"],
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
   },
   "fiji": {
     "id": "fiji",
@@ -13,7 +17,11 @@
     "type": "country",
     "parent": "south-pacific",
     "description": "The soft coral capital of the world, famous for shark dives and vibrant reefs.",
-    "coordinates": [-17.7134, 178.065]
+    "coordinates": [-17.7134, 178.065],
+    "bestTime": "May–October for best conditions.",
+    "floraFauna": ["soft corals", "hard corals", "reef fish", "sharks", "manta rays", "groupers", "turtles"],
+    "tags": ["tropical", "coral", "reefs", "soft coral", "sharks", "colorful"],
+    "image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800&h=600&fit=crop"
   },
   "french-polynesia": {
     "id": "french-polynesia",
@@ -21,7 +29,11 @@
     "type": "country",
     "parent": "south-pacific",
     "description": "Home to Rangiroa, Fakarava, and thrilling big animal encounters in turquoise lagoons.",
-    "coordinates": [-17.6797, -149.4068]
+    "coordinates": [-17.6797, -149.4068],
+    "bestTime": "April–November for best conditions.",
+    "floraFauna": ["sharks", "manta rays", "hard corals", "soft corals", "reef fish", "turtles", "groupers"],
+    "tags": ["tropical", "coral", "reefs", "big animals", "atolls", "clear water"],
+    "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&h=600&fit=crop"
   },
   "solomon-islands": {
     "id": "solomon-islands",
@@ -29,7 +41,11 @@
     "type": "country",
     "parent": "south-pacific",
     "description": "Remote WWII wrecks, lush reefs, and uncrowded diving.",
-    "coordinates": [-9.6457, 160.1562]
+    "coordinates": [-9.6457, 160.1562],
+    "bestTime": "May–November for best conditions.",
+    "floraFauna": ["hard corals", "soft corals", "reef fish", "sharks", "groupers", "turtles"],
+    "tags": ["tropical", "coral", "reefs", "wrecks", "pristine", "remote"],
+    "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&h=600&fit=crop"
   },
   "vanuatu": {
     "id": "vanuatu",
@@ -37,7 +53,11 @@
     "type": "country",
     "parent": "south-pacific",
     "description": "Wreck diving paradise, home to the SS President Coolidge and blue holes.",
-    "coordinates": [-15.3767, 166.9592]
+    "coordinates": [-15.3767, 166.9592],
+    "bestTime": "May–October for best conditions.",
+    "floraFauna": ["hard corals", "soft corals", "reef fish", "sharks", "groupers", "turtles"],
+    "tags": ["tropical", "coral", "reefs", "wrecks", "blue holes"],
+    "image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=800&h=600&fit=crop"
   },
   "new-caledonia": {
     "id": "new-caledonia",
@@ -45,7 +65,11 @@
     "type": "country",
     "parent": "south-pacific",
     "description": "Vast barrier reef, UNESCO lagoon, and French island culture.",
-    "coordinates": [-21.299, 165.365]
+    "coordinates": [-21.299, 165.365],
+    "bestTime": "April–November for best conditions.",
+    "floraFauna": ["hard corals", "soft corals", "reef fish", "sharks", "groupers", "turtles"],
+    "tags": ["tropical", "coral", "reefs", "barrier reef", "lagoon"],
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
   },
   "cook-islands": {
     "id": "cook-islands",
@@ -53,7 +77,11 @@
     "type": "country",
     "parent": "south-pacific",
     "description": "Crystal clear lagoons and relaxed island diving.",
-    "coordinates": [-21.2367, -159.7777]
+    "coordinates": [-21.2367, -159.7777],
+    "bestTime": "May–October for best conditions.",
+    "floraFauna": ["hard corals", "soft corals", "reef fish", "turtles", "groupers"],
+    "tags": ["tropical", "coral", "reefs", "lagoon", "relaxed"],
+    "image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800&h=600&fit=crop"
   },
   "tonga": {
     "id": "tonga",
@@ -61,7 +89,52 @@
     "type": "country",
     "parent": "south-pacific",
     "description": "Swim with humpback whales and explore coral gardens.",
-    "coordinates": [-21.1789, -175.1982]
+    "coordinates": [-21.1789, -175.1982],
+    "bestTime": "July–October for humpbacks, May–October for diving.",
+    "floraFauna": ["humpback whales", "hard corals", "soft corals", "reef fish", "turtles"],
+    "tags": ["tropical", "coral", "reefs", "big animals", "humpbacks"],
+    "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&h=600&fit=crop"
+  },
+  
+  "papua-new-guinea": {
+    "id": "papua-new-guinea",
+    "name": "Papua New Guinea",
+    "type": "country",
+    "parent": "south-pacific",
+    "description": "World-class diving with coral reefs, WWII wrecks, and incredible biodiversity.",
+    "coordinates": [-6.314993, 143.9555]
+  },
+  "kimbe-bay": {
+    "id": "kimbe-bay",
+    "name": "Kimbe Bay",
+    "type": "area",
+    "parent": "papua-new-guinea",
+    "description": "One of the richest coral reef areas on earth, with hundreds of fish and coral species.",
+    "coordinates": [-5.2167, 150.0833]
+  },
+  "milne-bay": {
+    "id": "milne-bay",
+    "name": "Milne Bay",
+    "type": "area",
+    "parent": "papua-new-guinea",
+    "description": "Famous for muck diving, reefs, and WWII wrecks in PNG's southeast.",
+    "coordinates": [-10.3, 150.5]
+  },
+  "tufi": {
+    "id": "tufi",
+    "name": "Tufi",
+    "type": "area",
+    "parent": "papua-new-guinea",
+    "description": "Fjords, coral reefs, and macro life in Oro Province.",
+    "coordinates": [-9.0833, 148.25]
+  },
+  "walindi": {
+    "id": "walindi",
+    "name": "Walindi",
+    "type": "subarea",
+    "parent": "kimbe-bay",
+    "description": "Famous eco-resort and gateway to Kimbe Bay's reefs.",
+    "coordinates": [-5.2833, 150.0833]
   },
   "samoa": {
     "id": "samoa",

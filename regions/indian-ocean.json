@@ -1,11 +1,14 @@
-
 {
   "indian-ocean": {
     "id": "indian-ocean",
     "name": "Indian Ocean",
     "type": "major",
     "description": "Luxury diving with pristine reefs and abundant marine life",
-    "coordinates": [-10.0, 75.0]
+    "coordinates": [-10.0, 75.0],
+    "bestTime": "November–April for best conditions, varies by region.",
+    "floraFauna": ["hard corals", "soft corals", "reef fish", "whale sharks", "manta rays", "turtles", "dolphins", "groupers"],
+    "tags": ["tropical", "coral", "reefs", "big animals", "pristine", "luxury"],
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
   },
   "maldives": {
     "id": "maldives",
@@ -13,7 +16,11 @@
     "type": "country",
     "parent": "indian-ocean",
     "description": "Iconic atolls, manta rays, whale sharks, and luxury liveaboards.",
-    "coordinates": [3.2028, 73.2207]
+    "coordinates": [3.2028, 73.2207],
+    "bestTime": "November–April for best visibility and weather.",
+    "floraFauna": ["hard corals", "soft corals", "reef fish", "whale sharks", "manta rays", "turtles", "groupers"],
+    "tags": ["tropical", "coral", "reefs", "big animals", "luxury", "atolls"],
+    "image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800&h=600&fit=crop"
   },
   "seychelles": {
     "id": "seychelles",
@@ -21,7 +28,11 @@
     "type": "country",
     "parent": "indian-ocean",
     "description": "Granite islands, coral reefs, and big pelagic encounters.",
-    "coordinates": [-4.6796, 55.492]
+    "coordinates": [-4.6796, 55.492],
+    "bestTime": "March–May and October–November for best diving.",
+    "floraFauna": ["hard corals", "soft corals", "reef fish", "manta rays", "turtles", "groupers", "rays"],
+    "tags": ["tropical", "coral", "reefs", "big animals", "granite islands"],
+    "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&h=600&fit=crop"
   },
   "mauritius": {
     "id": "mauritius",
@@ -29,7 +40,11 @@
     "type": "country",
     "parent": "indian-ocean",
     "description": "Wrecks, coral gardens, and year-round warm water diving.",
-    "coordinates": [-20.3484, 57.5522]
+    "coordinates": [-20.3484, 57.5522],
+    "bestTime": "November–April for best conditions.",
+    "floraFauna": ["hard corals", "soft corals", "reef fish", "turtles", "groupers", "rays"],
+    "tags": ["tropical", "coral", "reefs", "wrecks", "warm water"],
+    "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&h=600&fit=crop"
   },
   "sri-lanka": {
     "id": "sri-lanka",
@@ -78,5 +93,45 @@
     "parent": "indian-ocean",
     "description": "Steep drop-offs, whale sharks, and unique red crab migrations.",
     "coordinates": [-10.4475, 105.6904]
+  },
+  "india": {
+    "id": "india",
+    "name": "India",
+    "type": "country",
+    "parent": "indian-ocean",
+    "description": "Diverse diving from the Andaman Islands to Lakshadweep and Goa.",
+    "coordinates": [20.5937, 78.9629]
+  },
+  "andaman-islands": {
+    "id": "andaman-islands",
+    "name": "Andaman Islands",
+    "type": "area",
+    "parent": "india",
+    "description": "Remote archipelago with world-class reefs, wrecks, and big pelagics.",
+    "coordinates": [11.7401, 92.6586]
+  },
+  "havelock-island": {
+    "id": "havelock-island",
+    "name": "Havelock Island",
+    "type": "subarea",
+    "parent": "andaman-islands",
+    "description": "India's most famous dive destination, with vibrant reefs and elephants on the beach.",
+    "coordinates": [11.9670, 92.9827]
+  },
+  "lakshadweep": {
+    "id": "lakshadweep",
+    "name": "Lakshadweep",
+    "type": "area",
+    "parent": "india",
+    "description": "Coral atolls, turquoise lagoons, and excellent visibility off India's west coast.",
+    "coordinates": [10.5667, 72.6417]
+  },
+  "goa": {
+    "id": "goa",
+    "name": "Goa",
+    "type": "area",
+    "parent": "india",
+    "description": "Wrecks, shallow reefs, and beginner-friendly diving on India's southwest coast.",
+    "coordinates": [15.2993, 74.1240]
   }
 }

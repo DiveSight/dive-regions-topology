@@ -1,84 +1,124 @@
 
 {
-	"americas": {
-		"id": "americas",
-		"name": "The Americas",
-		"type": "major",
-		"description": "Diverse diving from kelp forests to cenotes, sea lions to whale sharks.",
-		"coordinates": [0.0, -75.0]
-	},
-	"usa": {
-		"id": "usa",
-		"name": "United States",
-		"type": "country",
-		"parent": "americas",
-		"description": "California kelp forests, Florida springs, and Pacific Northwest wrecks.",
-		"coordinates": [37.0902, -95.7129]
-	},
-	"california": {
-		"id": "california",
-		"name": "California",
-		"type": "area",
-		"parent": "usa",
-		"description": "Kelp forests, Channel Islands, and sea lion encounters.",
-		"coordinates": [34.0522, -118.2437]
-	},
+		"americas": {
+			"id": "americas",
+			"name": "The Americas",
+			"type": "major",
+			"description": "Diverse diving from kelp forests to cenotes, sea lions to whale sharks.",
+			"coordinates": [0.0, -75.0],
+			"bestTime": "Varies by region; generally May–October for temperate, year-round for tropics.",
+			"floraFauna": ["kelp forests", "hard corals", "soft corals", "sea lions", "whale sharks", "reef sharks", "turtles", "dolphins", "groupers", "octopus"],
+			"tags": ["diverse", "big animals", "kelp", "coral", "wrecks", "macro", "cold", "tropical"],
+			"image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
+		},
+		"usa": {
+			"id": "usa",
+			"name": "United States",
+			"type": "country",
+			"parent": "americas",
+			"description": "California kelp forests, Florida springs, and Pacific Northwest wrecks.",
+			"coordinates": [37.0902, -95.7129],
+			"bestTime": "May–October for temperate Pacific, year-round for Florida.",
+			"floraFauna": ["kelp forests", "sea lions", "hard corals", "soft corals", "manatees", "goliath groupers", "reef sharks", "octopus", "turtles"],
+			"tags": ["kelp", "wrecks", "reefs", "macro", "cold", "tropical", "shore diving"],
+			"image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800&h=600&fit=crop"
+		},
+		"california": {
+			"id": "california",
+			"name": "California",
+			"type": "area",
+			"parent": "usa",
+			"description": "Kelp forests, Channel Islands, and sea lion encounters.",
+			"coordinates": [34.0522, -118.2437],
+			"bestTime": "May–October for best conditions.",
+			"floraFauna": ["kelp forests", "sea lions", "garibaldi", "octopus", "nudibranchs", "giant black sea bass"],
+			"tags": ["kelp", "cold", "temperate", "shore diving", "macro"],
+			"image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&h=600&fit=crop"
+		},
 		"florida": {
 			"id": "florida",
 			"name": "Florida",
 			"type": "area",
 			"parent": "usa",
-			"description": "Wrecks, reefs, and freshwater springs from the Keys to the Panhandle.",
-			"coordinates": [27.9944, -81.7603]
-		},
+				"description": "Wrecks, reefs, and freshwater springs from the Keys to the Panhandle.",
+				"coordinates": [27.9944, -81.7603],
+				"bestTime": "Year-round, best visibility May–September.",
+				"floraFauna": ["hard corals", "soft corals", "goliath groupers", "manatees", "reef sharks", "turtles", "parrotfish", "snappers"],
+				"tags": ["tropical", "reefs", "wrecks", "macro", "shore diving"],
+				"image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&h=600&fit=crop"
+			},
 		"florida-keys": {
 			"id": "florida-keys",
 			"name": "Florida Keys",
 			"type": "subarea",
 			"parent": "florida",
-			"description": "Coral reefs, shipwrecks, and the only living barrier reef in the continental US.",
-			"coordinates": [24.5551, -81.7800]
-		},
+				"description": "Coral reefs, shipwrecks, and the only living barrier reef in the continental US.",
+				"coordinates": [24.5551, -81.7800],
+				"bestTime": "Year-round, best May–September.",
+				"floraFauna": ["hard corals", "soft corals", "goliath groupers", "reef sharks", "turtles", "parrotfish", "snappers"],
+				"tags": ["tropical", "reefs", "wrecks", "macro", "shore diving"],
+				"image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
+			},
 		"key-largo": {
 			"id": "key-largo",
 			"name": "Key Largo",
 			"type": "subarea",
 			"parent": "florida",
-			"description": "John Pennekamp Coral Reef State Park and the Spiegel Grove wreck.",
-			"coordinates": [25.0865, -80.4473]
-		},
+				"description": "John Pennekamp Coral Reef State Park and the Spiegel Grove wreck.",
+				"coordinates": [25.0865, -80.4473],
+				"bestTime": "Year-round, best May–September.",
+				"floraFauna": ["hard corals", "soft corals", "goliath groupers", "reef sharks", "turtles", "parrotfish", "snappers"],
+				"tags": ["tropical", "reefs", "wrecks", "macro", "shore diving"],
+				"image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=800&h=600&fit=crop"
+			},
 		"key-west": {
 			"id": "key-west",
 			"name": "Key West",
 			"type": "subarea",
 			"parent": "florida",
-			"description": "Wrecks, reefs, and laid-back island diving at the southernmost point.",
-			"coordinates": [24.5551, -81.7800]
-		},
+				"description": "Wrecks, reefs, and laid-back island diving at the southernmost point.",
+				"coordinates": [24.5551, -81.7800],
+				"bestTime": "Year-round, best May–September.",
+				"floraFauna": ["hard corals", "soft corals", "goliath groupers", "reef sharks", "turtles", "parrotfish", "snappers"],
+				"tags": ["tropical", "reefs", "wrecks", "macro", "shore diving"],
+				"image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&h=600&fit=crop"
+			},
 		"blue-heron-bridge": {
 			"id": "blue-heron-bridge",
 			"name": "Blue Heron Bridge",
 			"type": "subarea",
 			"parent": "florida",
-			"description": "World-famous macro site and easy shore dive in Palm Beach.",
-			"coordinates": [26.7782, -80.0431]
-		},
+				"description": "World-famous macro site and easy shore dive in Palm Beach.",
+				"coordinates": [26.7782, -80.0431],
+				"bestTime": "Year-round, best May–September.",
+				"floraFauna": ["seahorses", "frogfish", "octopus", "nudibranchs", "blennies", "gobies"],
+				"tags": ["macro", "shore diving", "easy", "photography"],
+				"image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800&h=600&fit=crop"
+			},
 		"west-palm-beach": {
 			"id": "west-palm-beach",
 			"name": "West Palm Beach",
 			"type": "subarea",
 			"parent": "florida",
-			"description": "Drift diving, reefs, and goliath groupers.",
-			"coordinates": [26.7153, -80.0534]
-		},
+				"description": "Drift diving, reefs, and goliath groupers.",
+				"coordinates": [26.7153, -80.0534],
+				"bestTime": "Year-round, best May–September.",
+				"floraFauna": ["goliath groupers", "reef sharks", "turtles", "hard corals", "soft corals"],
+				"tags": ["drift", "tropical", "reefs", "big animals"],
+				"image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&h=600&fit=crop"
+			},
 		"jupiter": {
 			"id": "jupiter",
 			"name": "Jupiter",
 			"type": "subarea",
 			"parent": "florida",
-			"description": "Shark diving, turtles, and strong Gulf Stream currents.",
-			"coordinates": [26.9342, -80.0942]
-		},
+				"description": "Shark diving, turtles, and strong Gulf Stream currents.",
+				"coordinates": [26.9342, -80.0942],
+				"bestTime": "Year-round, best May–September.",
+				"floraFauna": ["reef sharks", "lemon sharks", "turtles", "goliath groupers"],
+				"tags": ["sharks", "tropical", "drift", "big animals"],
+				"image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=800&h=600&fit=crop"
+			},
 		"pensacola": {
 			"id": "pensacola",
 			"name": "Pensacola",

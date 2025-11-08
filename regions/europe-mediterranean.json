@@ -5,7 +5,11 @@
     "name": "Europe & Mediterranean",
     "type": "major",
     "description": "Historic wrecks, temperate waters, and Mediterranean classics",
-    "coordinates": [45.0, 15.0]
+    "coordinates": [45.0, 15.0],
+    "bestTime": "May–October for Mediterranean, June–September for Atlantic/temperate.",
+    "floraFauna": ["hard corals", "soft corals", "kelp forests", "reef fish", "groupers", "octopus", "seals", "sponges"],
+    "tags": ["temperate", "mediterranean", "coral", "kelp", "reefs", "wrecks", "historic"],
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
   },
   "mediterranean": {
     "id": "mediterranean",
@@ -13,7 +17,11 @@
     "type": "area",
     "parent": "europe-mediterranean",
     "description": "Ancient history meets underwater exploration",
-    "coordinates": [37.0, 15.0]
+    "coordinates": [37.0, 15.0],
+    "bestTime": "May–October for best conditions.",
+    "floraFauna": ["hard corals", "soft corals", "reef fish", "groupers", "octopus", "sponges"],
+    "tags": ["mediterranean", "coral", "reefs", "wrecks", "historic"],
+    "image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800&h=600&fit=crop"
   },
   "italy": {
     "id": "italy",
@@ -21,7 +29,11 @@
     "type": "country",
     "parent": "europe-mediterranean",
     "description": "Stunning coastlines, caves, and rich history from Sardinia to Sicily.",
-    "coordinates": [42.0, 12.5]
+    "coordinates": [42.0, 12.5],
+    "bestTime": "May–October for best conditions.",
+    "floraFauna": ["hard corals", "soft corals", "reef fish", "groupers", "octopus", "sponges"],
+    "tags": ["mediterranean", "coral", "reefs", "wrecks", "historic", "caves"],
+    "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&h=600&fit=crop"
   },
   "sardinia": {
     "id": "sardinia",

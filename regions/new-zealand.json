@@ -1,67 +1,99 @@
 
 {
-	"new-zealand": {
-		"id": "new-zealand",
-		"name": "New Zealand",
-		"type": "major",
-		"description": "Vibrant pelagic diving, kelp forests, and unique marine life at the edge of the Pacific.",
-		"coordinates": [-40.9006, 174.8860]
-	},
-	"poor-knights-islands": {
-		"id": "poor-knights-islands",
-		"name": "Poor Knights Islands",
-		"type": "area",
-		"parent": "new-zealand",
-		"description": "World-class marine reserve with arches, caves, and subtropical fish.",
-		"coordinates": [-35.4833, 174.7333]
-	},
-	"bay-of-islands": {
-		"id": "bay-of-islands",
-		"name": "Bay of Islands",
-		"type": "area",
-		"parent": "new-zealand",
-		"description": "Wreck diving (Rainbow Warrior), clear waters, and abundant marine life.",
-		"coordinates": [-35.2167, 174.1167]
-	},
-	"fiordland": {
-		"id": "fiordland",
-		"name": "Fiordland",
-		"type": "area",
-		"parent": "new-zealand",
-		"description": "Dramatic fjords, black coral, and rare marine species in cold, deep waters.",
-		"coordinates": [-45.417, 167.716]
-	},
-	"white-island": {
-		"id": "white-island",
-		"name": "White Island (Whakaari)",
-		"type": "area",
-		"parent": "new-zealand",
-		"description": "Active volcano diving with geothermal vents and unique underwater landscapes.",
-		"coordinates": [-37.52, 177.18]
-	},
-	"stewart-island": {
-		"id": "stewart-island",
-		"name": "Stewart Island",
-		"type": "area",
-		"parent": "new-zealand",
-		"description": "Remote southern diving, kelp forests, and rare species.",
-		"coordinates": [-47.0, 168.1]
-	},
-	"goat-island": {
-		"id": "goat-island",
-		"name": "Goat Island",
-		"type": "area",
-		"parent": "new-zealand",
-		"description": "New Zealand's first marine reserve, easy shore diving and abundant fish.",
-		"coordinates": [-36.275, 174.800]
-	},
-	"wellington": {
-		"id": "wellington",
-		"name": "Wellington",
-		"type": "area",
-		"parent": "new-zealand",
-		"description": "Kelp forests, wrecks, and diverse marine life at the bottom of the North Island.",
-		"coordinates": [-41.2865, 174.7762]
-	}
+		"new-zealand": {
+			"id": "new-zealand",
+			"name": "New Zealand",
+			"type": "major",
+			"description": "Vibrant pelagic diving, kelp forests, and unique marine life at the edge of the Pacific.",
+			"coordinates": [-40.9006, 174.8860],
+			"bestTime": "December–May for best conditions.",
+			"floraFauna": ["kelp forests", "reef fish", "stingrays", "seals", "nudibranchs", "black corals", "octopus"],
+			"tags": ["temperate", "kelp", "reefs", "unique species", "cold", "adventure"],
+			"image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
+		},
+		"poor-knights-islands": {
+			"id": "poor-knights-islands",
+			"name": "Poor Knights Islands",
+			"type": "area",
+			"parent": "new-zealand",
+			"description": "World-class marine reserve with arches, caves, and subtropical fish.",
+			"coordinates": [-35.4833, 174.7333],
+			"bestTime": "December–May for best conditions.",
+			"floraFauna": ["kelp forests", "reef fish", "stingrays", "nudibranchs", "octopus"],
+			"tags": ["temperate", "kelp", "reefs", "marine reserve", "unique species"],
+			"image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800&h=600&fit=crop"
+		},
+		"bay-of-islands": {
+			"id": "bay-of-islands",
+			"name": "Bay of Islands",
+			"type": "area",
+			"parent": "new-zealand",
+			"description": "Wreck diving (Rainbow Warrior), clear waters, and abundant marine life.",
+			"coordinates": [-35.2167, 174.1167],
+			"bestTime": "December–May for best conditions.",
+			"floraFauna": ["kelp forests", "reef fish", "stingrays", "nudibranchs", "octopus"],
+			"tags": ["temperate", "kelp", "reefs", "wrecks", "clear water"],
+			"image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&h=600&fit=crop"
+		},
+		"fiordland": {
+			"id": "fiordland",
+			"name": "Fiordland",
+			"type": "area",
+			"parent": "new-zealand",
+			"description": "Dramatic fjords, black coral, and rare marine species in cold, deep waters.",
+			"coordinates": [-45.417, 167.716],
+			"bestTime": "December–May for best conditions.",
+			"floraFauna": ["black corals", "kelp forests", "octopus", "unique species"],
+			"tags": ["cold", "deep", "unique species", "adventure", "fjords"],
+			"image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&h=600&fit=crop"
+		},
+		"white-island": {
+			"id": "white-island",
+			"name": "White Island (Whakaari)",
+			"type": "area",
+			"parent": "new-zealand",
+			"description": "Active volcano diving with geothermal vents and unique underwater landscapes.",
+			"coordinates": [-37.52, 177.18],
+			"bestTime": "December–May for best conditions.",
+			"floraFauna": ["kelp forests", "reef fish", "nudibranchs", "octopus", "unique species"],
+			"tags": ["temperate", "kelp", "reefs", "volcanic", "unique species"],
+			"image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=800&h=600&fit=crop"
+		},
+		"stewart-island": {
+			"id": "stewart-island",
+			"name": "Stewart Island",
+			"type": "area",
+			"parent": "new-zealand",
+			"description": "Remote southern diving, kelp forests, and rare species.",
+			"coordinates": [-47.0, 168.1],
+			"bestTime": "December–May for best conditions.",
+			"floraFauna": ["kelp forests", "reef fish", "nudibranchs", "octopus", "unique species"],
+			"tags": ["cold", "kelp", "unique species", "remote", "adventure"],
+			"image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
+		},
+		"goat-island": {
+			"id": "goat-island",
+			"name": "Goat Island",
+			"type": "area",
+			"parent": "new-zealand",
+			"description": "New Zealand's first marine reserve, easy shore diving and abundant fish.",
+			"coordinates": [-36.275, 174.800],
+			"bestTime": "December–May for best conditions.",
+			"floraFauna": ["kelp forests", "reef fish", "stingrays", "nudibranchs", "octopus"],
+			"tags": ["temperate", "kelp", "reefs", "marine reserve", "easy"],
+			"image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&h=600&fit=crop"
+		},
+		"wellington": {
+			"id": "wellington",
+			"name": "Wellington",
+			"type": "area",
+			"parent": "new-zealand",
+			"description": "Kelp forests, wrecks, and diverse marine life at the bottom of the North Island.",
+			"coordinates": [-41.2865, 174.7762],
+			"bestTime": "December–May for best conditions.",
+			"floraFauna": ["kelp forests", "reef fish", "nudibranchs", "octopus", "unique species"],
+			"tags": ["temperate", "kelp", "reefs", "wrecks", "diverse"],
+			"image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&h=600&fit=crop"
+		}
 }
 

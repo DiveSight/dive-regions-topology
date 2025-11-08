@@ -5,7 +5,11 @@
     "name": "Caribbean",
     "type": "major",
     "description": "Classic tropical diving with vibrant reefs and wrecks",
-    "coordinates": [18.0, -66.0]
+    "coordinates": [18.0, -66.0],
+    "bestTime": "December–May for best conditions, but year-round diving.",
+    "floraFauna": ["hard corals", "soft corals", "reef fish", "turtles", "sharks", "rays", "groupers", "parrotfish", "sponges"],
+    "tags": ["tropical", "coral", "reefs", "wrecks", "colorful", "easy", "warm water"],
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
   },
   "bahamas": {
     "id": "bahamas",
@@ -13,7 +17,11 @@
     "type": "country",
     "parent": "caribbean",
     "description": "Crystal clear waters, blue holes, and shark encounters.",
-    "coordinates": [24.0, -76.0]
+    "coordinates": [24.0, -76.0],
+    "bestTime": "November–May for best visibility and weather.",
+    "floraFauna": ["reef sharks", "tiger sharks", "hammerhead sharks", "hard corals", "soft corals", "turtles", "groupers", "sponges"],
+    "tags": ["sharks", "tropical", "reefs", "blue holes", "big animals"],
+    "image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800&h=600&fit=crop"
   },
   "cayman-islands": {
     "id": "cayman-islands",
@@ -21,7 +29,11 @@
     "type": "country",
     "parent": "caribbean",
     "description": "World-class wall diving, Stingray City, and clear Caribbean waters.",
-    "coordinates": [19.3, -81.2]
+    "coordinates": [19.3, -81.2],
+    "bestTime": "December–May for best conditions.",
+    "floraFauna": ["stingrays", "hard corals", "soft corals", "reef fish", "turtles", "groupers"],
+    "tags": ["wall diving", "tropical", "reefs", "clear water", "easy"],
+    "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&h=600&fit=crop"
   },
   "turks-caicos": {
     "id": "turks-caicos",
@@ -29,7 +41,11 @@
     "type": "country",
     "parent": "caribbean",
     "description": "Wall diving, humpback whales, and pristine reefs.",
-    "coordinates": [21.6940, -71.7979]
+    "coordinates": [21.6940, -71.7979],
+    "bestTime": "January–April for humpbacks; December–May for diving.",
+    "floraFauna": ["humpback whales", "hard corals", "soft corals", "reef fish", "turtles", "groupers"],
+    "tags": ["wall diving", "tropical", "reefs", "big animals", "pristine"],
+    "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&h=600&fit=crop"
   },
   "jamaica": {
     "id": "jamaica",
@@ -37,7 +53,11 @@
     "type": "country",
     "parent": "caribbean",
     "description": "Laid-back diving, reefs, and wrecks in warm waters.",
-    "coordinates": [18.1096, -77.2975]
+    "coordinates": [18.1096, -77.2975],
+    "bestTime": "December–April for best conditions.",
+    "floraFauna": ["hard corals", "soft corals", "reef fish", "turtles", "parrotfish", "sponges"],
+    "tags": ["tropical", "reefs", "wrecks", "easy", "warm water"],
+    "image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=800&h=600&fit=crop"
   },
   "puerto-rico": {
     "id": "puerto-rico",

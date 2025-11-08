@@ -1,12 +1,16 @@
 
 {
-	"north-america": {
-		"id": "north-america",
-		"name": "North America",
-		"type": "major",
-		"description": "Diverse diving with kelp forests and sea lions.",
-		"coordinates": [48.3544, -99.9981]
-	},
+		"north-america": {
+			"id": "north-america",
+			"name": "North America",
+			"type": "major",
+			"description": "Diverse diving with kelp forests and sea lions.",
+			"coordinates": [48.3544, -99.9981],
+			"bestTime": "May–October for temperate Pacific, year-round for Florida.",
+			"floraFauna": ["kelp forests", "sea lions", "hard corals", "soft corals", "manatees", "goliath groupers", "reef sharks", "octopus", "turtles"],
+			"tags": ["kelp", "wrecks", "reefs", "macro", "cold", "tropical", "shore diving"],
+			"image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
+		},
 	"usa": {
 		"id": "usa",
 		"name": "United States",

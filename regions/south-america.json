@@ -1,12 +1,16 @@
 
 {
-	"south-america": {
-		"id": "south-america",
-		"name": "South America",
-		"type": "major",
-		"description": "Paradise with cenotes and whale sharks.",
-		"coordinates": [-8.7832, -55.4915]
-	},
+		"south-america": {
+			"id": "south-america",
+			"name": "South America",
+			"type": "major",
+			"description": "Paradise with cenotes and whale sharks.",
+			"coordinates": [-8.7832, -55.4915],
+			"bestTime": "December–May for tropics, November–April for Galápagos.",
+			"floraFauna": ["hard corals", "soft corals", "reef fish", "whale sharks", "hammerhead sharks", "sea lions", "kelp forests", "groupers"],
+			"tags": ["tropical", "temperate", "coral", "kelp", "big animals", "reefs", "unique species"],
+			"image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
+		},
 	"belize": {
 		"id": "belize",
 		"name": "Belize",

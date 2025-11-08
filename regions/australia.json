@@ -1,83 +1,123 @@
 
 {
-	"australia": {
-		"id": "australia",
-		"name": "Australia",
-		"type": "major",
-		"description": "Home of the Great Barrier Reef, world-class temperate and tropical diving.",
-		"coordinates": [-25.2744, 133.7751]
-	},
-	"great-barrier-reef": {
-		"id": "great-barrier-reef",
-		"name": "Great Barrier Reef",
-		"type": "area",
-		"parent": "australia",
-		"description": "The world's largest coral reef system, famous for vibrant marine life and coral gardens.",
-		"coordinates": [-18.2871, 147.6992]
-	},
-	"ningaloo-reef": {
-		"id": "ningaloo-reef",
-		"name": "Ningaloo Reef",
-		"type": "area",
-		"parent": "australia",
-		"description": "Swim with whale sharks, manta rays, and pristine fringing reefs in Western Australia.",
-		"coordinates": [-22.2711, 113.5461]
-	},
-	"coral-sea": {
-		"id": "coral-sea",
-		"name": "Coral Sea",
-		"type": "area",
-		"parent": "australia",
-		"description": "Remote reefs, big pelagics, and dramatic drop-offs east of the Great Barrier Reef.",
-		"coordinates": [-16.0, 151.0]
-	},
-	"lord-howe-island": {
-		"id": "lord-howe-island",
-		"name": "Lord Howe Island",
-		"type": "area",
-		"parent": "australia",
-		"description": "UNESCO World Heritage island with unique species and clear waters.",
-		"coordinates": [-31.55, 159.08]
-	},
-	"tasmania": {
-		"id": "tasmania",
-		"name": "Tasmania",
-		"type": "area",
-		"parent": "australia",
-		"description": "Kelp forests, weedy sea dragons, and temperate diving at the edge of the Southern Ocean.",
-		"coordinates": [-42.0409, 146.8087]
-	},
-	"sydney": {
-		"id": "sydney",
-		"name": "Sydney",
-		"type": "area",
-		"parent": "australia",
-		"description": "City diving with weedy sea dragons, sharks, and shipwrecks.",
-		"coordinates": [-33.8688, 151.2093]
-	},
-	"melbourne": {
-		"id": "melbourne",
-		"name": "Melbourne",
-		"type": "area",
-		"parent": "australia",
-		"description": "Wrecks, piers, and unique temperate marine life in Port Phillip Bay.",
-		"coordinates": [-37.8136, 144.9631]
-	},
-	"south-australia": {
-		"id": "south-australia",
-		"name": "South Australia",
-		"type": "area",
-		"parent": "australia",
-		"description": "Cage diving with great white sharks and leafy sea dragons in temperate waters.",
-		"coordinates": [-34.9285, 138.6007]
-	},
-	"rowley-shoals": {
-		"id": "rowley-shoals",
-		"name": "Rowley Shoals",
-		"type": "area",
-		"parent": "australia",
-		"description": "Remote atolls off Western Australia, famous for clear water and pristine reefs.",
-		"coordinates": [-17.3, 119.3]
-	}
+		"australia": {
+			"id": "australia",
+			"name": "Australia",
+			"type": "major",
+			"description": "Home of the Great Barrier Reef, world-class temperate and tropical diving.",
+			"coordinates": [-25.2744, 133.7751],
+			"bestTime": "April–November for tropics, December–May for temperate south.",
+			"floraFauna": ["hard corals", "soft corals", "reef fish", "whale sharks", "manta rays", "sea turtles", "great white sharks", "leafy sea dragons", "kelp forests"],
+			"tags": ["tropical", "temperate", "coral", "kelp", "big animals", "reefs", "unique species"],
+			"image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
+		},
+		"great-barrier-reef": {
+			"id": "great-barrier-reef",
+			"name": "Great Barrier Reef",
+			"type": "area",
+			"parent": "australia",
+			"description": "The world's largest coral reef system, famous for vibrant marine life and coral gardens.",
+			"coordinates": [-18.2871, 147.6992],
+			"bestTime": "June–November for best visibility and weather.",
+			"floraFauna": ["hard corals", "soft corals", "reef fish", "sea turtles", "manta rays", "sharks", "giant clams"],
+			"tags": ["tropical", "coral", "reefs", "big animals", "colorful", "iconic"],
+			"image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800&h=600&fit=crop"
+		},
+		"ningaloo-reef": {
+			"id": "ningaloo-reef",
+			"name": "Ningaloo Reef",
+			"type": "area",
+			"parent": "australia",
+			"description": "Swim with whale sharks, manta rays, and pristine fringing reefs in Western Australia.",
+			"coordinates": [-22.2711, 113.5461],
+			"bestTime": "March–July for whale sharks; April–November for diving.",
+			"floraFauna": ["whale sharks", "manta rays", "hard corals", "soft corals", "reef fish", "turtles", "dugongs"],
+			"tags": ["tropical", "coral", "big animals", "iconic", "fringing reefs"],
+			"image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&h=600&fit=crop"
+		},
+		"coral-sea": {
+			"id": "coral-sea",
+			"name": "Coral Sea",
+			"type": "area",
+			"parent": "australia",
+			"description": "Remote reefs, big pelagics, and dramatic drop-offs east of the Great Barrier Reef.",
+			"coordinates": [-16.0, 151.0],
+			"bestTime": "September–December for best conditions.",
+			"floraFauna": ["sharks", "manta rays", "hard corals", "soft corals", "reef fish", "turtles"],
+			"tags": ["remote", "big animals", "coral", "drop-offs", "adventure"],
+			"image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&h=600&fit=crop"
+		},
+		"lord-howe-island": {
+			"id": "lord-howe-island",
+			"name": "Lord Howe Island",
+			"type": "area",
+			"parent": "australia",
+			"description": "UNESCO World Heritage island with unique species and clear waters.",
+			"coordinates": [-31.55, 159.08],
+			"bestTime": "September–May for best diving.",
+			"floraFauna": ["doubleheader wrasse", "ballina angelfish", "hard corals", "soft corals", "kelp forests", "turtles"],
+			"tags": ["unique species", "temperate", "tropical", "reefs", "clear water"],
+			"image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=800&h=600&fit=crop"
+		},
+		"tasmania": {
+			"id": "tasmania",
+			"name": "Tasmania",
+			"type": "area",
+			"parent": "australia",
+			"description": "Kelp forests, weedy sea dragons, and temperate diving at the edge of the Southern Ocean.",
+			"coordinates": [-42.0409, 146.8087],
+			"bestTime": "December–May for best conditions.",
+			"floraFauna": ["kelp forests", "weedy sea dragons", "seals", "octopus", "nudibranchs"],
+			"tags": ["temperate", "kelp", "unique species", "macro", "cold"],
+			"image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
+		},
+		"sydney": {
+			"id": "sydney",
+			"name": "Sydney",
+			"type": "area",
+			"parent": "australia",
+			"description": "City diving with weedy sea dragons, sharks, and shipwrecks.",
+			"coordinates": [-33.8688, 151.2093],
+			"bestTime": "October–May for best conditions.",
+			"floraFauna": ["weedy sea dragons", "sharks", "kelp forests", "octopus", "nudibranchs"],
+			"tags": ["temperate", "kelp", "unique species", "macro", "city diving"],
+			"image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&h=600&fit=crop"
+		},
+		"melbourne": {
+			"id": "melbourne",
+			"name": "Melbourne",
+			"type": "area",
+			"parent": "australia",
+			"description": "Wrecks, piers, and unique temperate marine life in Port Phillip Bay.",
+			"coordinates": [-37.8136, 144.9631],
+			"bestTime": "December–May for best conditions.",
+			"floraFauna": ["weedy sea dragons", "seals", "kelp forests", "octopus", "nudibranchs"],
+			"tags": ["temperate", "kelp", "unique species", "macro", "wrecks"],
+			"image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&h=600&fit=crop"
+		},
+		"south-australia": {
+			"id": "south-australia",
+			"name": "South Australia",
+			"type": "area",
+			"parent": "australia",
+			"description": "Cage diving with great white sharks and leafy sea dragons in temperate waters.",
+			"coordinates": [-34.9285, 138.6007],
+			"bestTime": "April–October for great white sharks.",
+			"floraFauna": ["great white sharks", "leafy sea dragons", "seals", "kelp forests", "octopus"],
+			"tags": ["temperate", "kelp", "unique species", "big animals", "adventure"],
+			"image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=800&h=600&fit=crop"
+		},
+		"rowley-shoals": {
+			"id": "rowley-shoals",
+			"name": "Rowley Shoals",
+			"type": "area",
+			"parent": "australia",
+			"description": "Remote atolls off Western Australia, famous for clear water and pristine reefs.",
+			"coordinates": [-17.3, 119.3],
+			"bestTime": "September–December for best conditions.",
+			"floraFauna": ["hard corals", "soft corals", "reef fish", "sharks", "turtles", "giant clams"],
+			"tags": ["remote", "tropical", "coral", "reefs", "pristine"],
+			"image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&h=600&fit=crop"
+		}
 }
 

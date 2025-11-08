@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<body>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dive Region Topology Viewer</title>
@@ -14,226 +14,146 @@
     .subarea { color: #f39c12; }
     .hidden { display: none; }
     ul { list-style: none; padding-left: 1em; }
-    html, body {
-      background: #f9fafb !important;
-      color: #18181b;
-      min-height: 100vh;
-      margin: 0;
-      transition: background 0.3s;
-    }
-    html.dark, body.dark {
-      background: #18181b !important;
-      color: #e5e7eb;
-    }
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 2em 1em;
-    }
-    .header {
-      display: flex;
-      flex-direction: column;
-      gap: 1em;
-      align-items: flex-start;
-      justify-content: space-between;
-    }
-    @media (min-width: 640px) {
-      .header {
-        flex-direction: row;
-        align-items: center;
-      }
-    }
-    .title {
-      font-size: 2em;
-      font-weight: bold;
-      margin: 0;
-      color: inherit;
-    }
-    .toggle-btn {
-      padding: 0.5em 1.2em;
-      border-radius: 0.5em;
-      background: #2d2d2d;
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Dive Region Topology Viewer</title>
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+      <style>
+        #map { height: 60vh; width: 100%; margin-bottom: 1em; border-radius: 0.5rem; box-shadow: 0 4px 24px #0003; }
+        #tree { font-family: monospace; }
+        .major { color: #e74c3c; font-weight: bold; }
+        .country { color: #2980b9; }
+        .area { color: #27ae60; }
+        .subarea { color: #f39c12; }
+        .hidden { display: none; }
+        ul { list-style: none; padding-left: 1em; }
+        html, body {
+          background: #f9fafb !important;
+          color: #18181b;
+          min-height: 100vh;
+          margin: 0;
+          transition: background 0.3s;
+        }
+        html.dark, body.dark {
+          background: #18181b !important;
+          color: #e5e7eb;
+        }
+        .container {
+          max-width: 900px;
+          margin: 0 auto;
+          padding: 2em 1em;
+        }
+        .header {
+          display: flex;
+          flex-direction: column;
+          gap: 1em;
+          align-items: flex-start;
+          justify-content: space-between;
+        }
+        @media (min-width: 640px) {
+          .header {
+            flex-direction: row;
+            align-items: center;
+          }
+        }
+        .title {
+          font-size: 2em;
+          font-weight: bold;
+          margin: 0;
+          color: inherit;
+        }
+        .toggle-btn {
+          padding: 0.5em 1.2em;
+          border-radius: 0.5em;
+          background: #2d2d2d;
+          color: #fff;
+          border: none;
+          cursor: pointer;
+          font-size: 1em;
+          transition: background 0.2s;
+        }
+        .toggle-btn:hover {
+          background: #444;
+        }
+        .region-toggle-btn {
+          display: inline-block;
+          margin: 0.25em 0.5em 0.25em 0;
+          padding: 0.7em 1.5em;
+          font-size: 1.1em;
+          border-radius: 0.5em;
+          border: 2px solid #bbb;
+          background: #f3f4f6;
+          color: #18181b;
+          cursor: pointer;
+          transition: background 0.2s, border 0.2s;
+          min-width: 120px;
+          min-height: 1.7em;
+          box-shadow: 0 2px 8px #0001;
+          line-height: 1.2;
+          padding-top: 0.4em;
+          padding-bottom: 0.4em;
+        }
+        .region-toggle-btn input[type="checkbox"] {
+          transform: scale(1.4);
+          margin-right: 0.7em;
+          vertical-align: middle;
+        }
+        .region-toggle-btn.selected {
+          background: #2563eb;
+          color: #fff;
+          border-color: #2563eb;
+        }
+        .dark .region-toggle-btn {
+          background: #23272f;
+          color: #e5e7eb;
+          border-color: #444;
+        }
+        .dark .region-toggle-btn.selected {
+      background: #2563eb;
       color: #fff;
-      border: none;
-      cursor: pointer;
-      font-size: 1em;
-      transition: background 0.2s;
-    }
-    .toggle-btn:hover {
-      background: #444;
-    }
-    .light .toggle-btn {
-      background: #e5e7eb;
-      color: #18181b;
-    }
-    .light .toggle-btn:hover {
-      background: #d1d5db;
-    }
-    .shadow-lg { box-shadow: 0 4px 24px #0003; }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="header">
-      <h1 class="title">Dive Region Topology Viewer</h1>
-      <button id="toggle-dark" class="toggle-btn">Toggle Light/Dark</button>
-    </div>
-    <div id="controls" style="margin: 1em 0;"></div>
-    <div id="map" class="shadow-lg"></div>
-    <div id="tree" style="margin-top: 2em;"></div>
-  </div>
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="regions/_index.js"></script>
-  <script>
-    // Helper: color by type
-    function getColor(type) {
-      if (type === 'major') return '#e74c3c';
-      if (type === 'country') return '#2980b9';
-      if (type === 'area') return '#27ae60';
-      if (type === 'subarea') return '#f39c12';
-      return '#888';
-    }
-    // Helper: radius by type
-    function getRadius(type) {
-      if (type === 'major') return 22;
-      if (type === 'country') return 16;
-      if (type === 'area') return 11;
-      if (type === 'subarea') return 7;
-      return 5;
-    }
-    // Load all region data (synchronously for simplicity)
-    async function loadAllRegions() {
-      const files = [
-        'africa.json', 'north-america.json', 'south-america.json', 'australia.json', 'caribbean.json',
-        'europe-mediterranean.json', 'indian-ocean.json', 'middle-east.json',
-        'new-zealand.json', 'south-pacific.json', 'southeast-asia.json', 'east-asia.json'
-      ];
-      const regionData = {};
-      for (const file of files) {
-        const res = await fetch('regions/' + file);
-        if (res.ok) {
-          const json = await res.json();
-          Object.assign(regionData, json);
+      border-color: #2563eb;
         }
-      }
-      return regionData;
-    }
-    // Build tree structure from flat data
-    function buildTree(data) {
-      const nodes = {};
-      Object.keys(data).forEach(id => {
-        nodes[id] = { ...data[id], children: [] };
-      });
-      const rootNodes = [];
-      Object.values(nodes).forEach(node => {
-        if (node.parent && nodes[node.parent]) {
-          nodes[node.parent].children.push(node);
-        } else if (!node.parent) {
-          rootNodes.push(node);
+        .light .toggle-btn {
+          background: #e5e7eb;
+          color: #18181b;
         }
-      });
-      return rootNodes;
-    }
-    // Render tree as HTML
-    function renderTree(nodes) {
-      let html = '<ul>';
-      for (const node of nodes) {
-        html += `<li class="${node.type}">${node.name}`;
-        if (node.children && node.children.length) {
-          html += renderTree(node.children);
+        .light .toggle-btn:hover {
+          background: #d1d5db;
         }
-        html += '</li>';
-      }
-      html += '</ul>';
-      return html;
-    }
-  // Map markers by major id for toggling
-  const markersByMajor = {};
-    // Main
-    (async function() {
-      const data = await loadAllRegions();
-      // Find all major regions
-      const majors = Object.values(data).filter(r => r.type === 'major');
-      // Controls
-      const controlsDiv = document.getElementById('controls');
-  controlsDiv.innerHTML = majors.map(m => `<label><input type="checkbox" data-major="${m.id}"> ${m.name}</label>`).join(' ');
-      // Map
-      const map = L.map('map').setView([0, 0], 2);
-      // Map tile layers for light and dark
-      const lightTiles = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-        maxZoom: 19,
-        attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a>'
-      });
-      const darkTiles = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-        maxZoom: 19,
-        attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a>'
-      });
-      // Add light by default
-      lightTiles.addTo(map);
-      // Theme toggle
-      const darkBtn = document.getElementById('toggle-dark');
-      function setTheme(theme) {
-        if (theme === 'dark') {
-          document.documentElement.classList.add('dark');
-          document.body.classList.add('dark');
-          map.removeLayer(lightTiles);
-          map.addLayer(darkTiles);
-        } else {
-          document.documentElement.classList.remove('dark');
-          document.body.classList.remove('dark');
-          map.removeLayer(darkTiles);
-          map.addLayer(lightTiles);
-        }
-      }
-      // Start in light mode
-      setTheme('light');
-      darkBtn.addEventListener('click', () => {
-        if (document.documentElement.classList.contains('dark')) {
-          setTheme('light');
-        } else {
-          setTheme('dark');
-        }
-      });
-      // Helper: find top-level major ancestor for a region
-      function findMajorId(region, data) {
-        let current = region;
-        while (current && current.parent) {
-          current = data[current.parent];
-        }
-        return current ? current.id : region.id;
-      }
-      // Add all markers, grouped by top-level major, but don't show initially
-      for (const region of Object.values(data)) {
-        if (!region.coordinates) continue;
-        const color = getColor(region.type);
-        const radius = getRadius(region.type);
-        const marker = L.circleMarker(region.coordinates, {
-          color,
-          fillColor: color,
-          fillOpacity: 0.7,
-          radius
-        });
-        marker.bindPopup(`<b>${region.name}</b><br>${region.description || ''}`);
-        marker.bindTooltip(`<b>${region.name}</b><br>${region.description || ''}`, {sticky: true, direction: 'top', offset: [0, -radius]});
-        // Group by top-level major ancestor
-        const majorId = findMajorId(region, data);
-        if (!markersByMajor[majorId]) markersByMajor[majorId] = [];
-        markersByMajor[majorId].push(marker);
-        // Do not add to map yet
-      }
-      // Toggle majors
-      controlsDiv.addEventListener('change', e => {
-        if (!e.target.matches('input[data-major]')) return;
-        const majorId = e.target.getAttribute('data-major');
-        const show = e.target.checked;
-        (markersByMajor[majorId] || []).forEach(marker => {
-          if (show) marker.addTo(map); else map.removeLayer(marker);
-        });
-      });
-      // Tree
-      const tree = buildTree(data);
-      document.getElementById('tree').innerHTML = renderTree(tree);
-    })();
-  </script>
-</body>
-</html>
+        .shadow-lg { box-shadow: 0 4px 24px #0003; }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <div class="header">
+          <h1 class="title">Dive Topology Viewer</h1>
+          <button id="toggle-dark" class="toggle-btn">Toggle Light/Dark</button>
+        </div>
+        <div class="tabs" style="display: flex; gap: 1em; margin: 1.5em 0 1em 0;">
+          <button id="tab-region" class="toggle-btn tab-btn selected">Dive Regions</button>
+          <button id="tab-marine-life" class="toggle-btn tab-btn">Marine Life</button>
+          <button id="tab-region-tree" class="toggle-btn tab-btn">Region Tree</button>
+        </div>
+        <div id="tab-content-region">
+          <div id="search-bar" style="margin: 1em 0 0.5em 0; text-align:center;">
+            <input id="search-input" type="text" placeholder="Search for a region or site..." style="width: 60%; max-width: 400px; font-size: 1.1em; padding: 0.4em 1em; border-radius: 0.5em; border: 1.5px solid #bbb; outline: none;" />
+            <div id="search-results" style="position: absolute; left: 50%; transform: translateX(-50%); background: #fff; color: #18181b; border-radius: 0.5em; box-shadow: 0 2px 12px #0002; z-index: 1000; display: none; max-width: 400px; width: 60%;"></div>
+          </div>
+          <div id="controls" style="margin: 0.5em 0 1em 0;"></div>
+          <div id="map" class="shadow-lg"></div>
+          <div id="tree" style="margin-top: 2em;"></div>
+        </div>
+        <div id="tab-content-marine-life" style="display:none;">
+          <div id="marine-life-browser"></div>
+        </div>
+        <div id="tab-content-region-tree" style="display:none;">
+          <div id="region-tree-browser"></div>
+        </div>
+      </div>
+      <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+      <script type="module" src="./src/init.js"></script>
+    </body>
+    </html>
