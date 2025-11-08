@@ -1,5 +1,12 @@
 
 # WORLD WIDE DIVE REGIONS
+
+![Dive Region Topology Viewer Screenshot](screenshot.png)
+
+**Live Demo:** [https://divesight.github.io/dive-regions-topology/](https://divesight.github.io/dive-regions-topology/)
+
+This project is licensed under the [MIT License](LICENSE).
+
 ## Region Type Hierarchy
 
 This project organizes dive locations into a four-level hierarchy, reflecting how divers commonly discuss and explore the world:
