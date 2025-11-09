@@ -43,14 +43,24 @@
 		"description": "Galápagos and Pacific coast diving with whale sharks and sea lions.",
 		"coordinates": [-1.8312, -78.1834]
 	},
-	"brazil": {
-		"id": "brazil",
-		"name": "Brazil",
-		"type": "country",
-		"parent": "south-america",
-		"description": "Fernando de Noronha, wrecks, and warm Atlantic reefs.",
-		"coordinates": [-14.2350, -51.9253]
-	},
+		"brazil": {
+			"id": "brazil",
+			"aliases": [ "brasil" ],
+			"name": "Brazil",
+			"type": "country",
+			"parent": "south-america",
+			"description": "Fernando de Noronha, wrecks, and warm Atlantic reefs.",
+			"coordinates": [-14.2350, -51.9253]
+		},
+		"panama": {
+			"id": "panama",
+			"name": "Panama",
+			"aliases": ["Panamá"],
+			"type": "country",
+			"parent": "south-america",
+			"description": "Caribbean and Pacific coasts, wrecks, reefs, and the Panama Canal.",
+			"coordinates": [8.538, -80.7821]
+		},
 	"argentina": {
 		"id": "argentina",
 		"name": "Argentina",
@@ -67,4 +77,23 @@
 		"description": "Humboldt current, kelp forests, and Easter Island diving.",
 		"coordinates": [-35.6751, -71.5430]
 	}
+	,
+	"peru": {
+		"id": "peru",
+		"name": "Peru",
+		"aliases": ["Perú"],
+		"type": "country",
+		"parent": "south-america",
+		"description": "Cold water diving, kelp forests, sea lions, and Humboldt current marine life along the Pacific coast.",
+		"coordinates": [-9.19, -75.0152]
+	}
+		,
+		"venezuela": {
+			"id": "venezuela",
+			"name": "Venezuela",
+			"type": "country",
+			"parent": "south-america",
+			"description": "Caribbean coast, coral reefs, and marine parks like Los Roques.",
+			"coordinates": [6.4238, -66.5897]
+		}
 }

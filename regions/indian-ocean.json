@@ -8,7 +8,8 @@
     "bestTime": "November–April for best conditions, varies by region.",
     "floraFauna": ["hard corals", "soft corals", "reef fish", "whale sharks", "manta rays", "turtles", "dolphins", "groupers"],
     "tags": ["tropical", "coral", "reefs", "big animals", "pristine", "luxury"],
-    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop",
+    "aliases": ["ދިވެހިރާއްޖެ"]
   },
   "maldives": {
     "id": "maldives",
@@ -26,6 +27,7 @@
     "id": "seychelles",
     "name": "Seychelles",
     "type": "country",
+    "aliases": ["Sesel"],
     "parent": "indian-ocean",
     "description": "Granite islands, coral reefs, and big pelagic encounters.",
     "coordinates": [-4.6796, 55.492],

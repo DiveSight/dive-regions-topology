@@ -11,9 +11,36 @@
     "tags": ["tropical", "coral", "reefs", "big animals", "pristine", "atolls"],
     "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
   },
+  "micronesia": {
+    "id": "micronesia",
+    "name": "Micronesia",
+    "aliases": ["Ṃajeḷ"],
+    "type": "country",
+    "parent": "south-pacific",
+    "description": "World-class wrecks, coral reefs, and WWII history across hundreds of islands.",
+    "coordinates": [6.8875, 158.215],
+    "bestTime": "December–April for best conditions.",
+    "floraFauna": ["reef-fish", "corals", "sharks", "wrecks"],
+    "tags": ["wrecks", "coral reefs", "islands"],
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80"
+  },
+  "palau": {
+    "id": "palau",
+    "name": "Palau",
+    "aliases": ["Belau"],
+    "type": "country",
+    "parent": "south-pacific",
+    "description": "Famed for Blue Corner, Jellyfish Lake, and pristine reefs with sharks and big pelagics.",
+    "coordinates": [7.51498, 134.5825],
+    "bestTime": "November–May for best conditions.",
+    "floraFauna": ["sharks", "reef-fish", "corals", "jellyfish", "pelagics"],
+    "tags": ["pristine", "sharks", "jellyfish", "big animals", "reefs"],
+    "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&h=600&fit=crop"
+  },
   "fiji": {
     "id": "fiji",
     "name": "Fiji",
+    "aliases": ["Viti"],
     "type": "country",
     "parent": "south-pacific",
     "description": "The soft coral capital of the world, famous for shark dives and vibrant reefs.",
@@ -99,6 +126,7 @@
   "papua-new-guinea": {
     "id": "papua-new-guinea",
     "name": "Papua New Guinea",
+    "aliases": ["Papua Niugini"],
     "type": "country",
     "parent": "south-pacific",
     "description": "World-class diving with coral reefs, WWII wrecks, and incredible biodiversity.",
@@ -144,4 +172,14 @@
     "description": "Lava tubes, drop-offs, and vibrant reefs in a laid-back setting.",
     "coordinates": [-13.759, -172.1046]
   }
-}
+    ,
+    "niue": {
+      "id": "niue",
+      "name": "Niue",
+      "aliases": ["Niuē"],
+      "type": "country",
+      "parent": "south-pacific",
+      "description": "Remote island diving, caves, and clear waters in the South Pacific.",
+      "coordinates": [-19.0544, -169.8672]
+    }
+  }

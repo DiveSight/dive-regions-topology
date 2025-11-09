@@ -1,14 +1,17 @@
 {
   "southeast-asia": {
-  "id": "southeast-asia",
-  "name": "Southeast Asia",
-  "type": "major",
-  "description": "The crown jewel of diving with unparalleled biodiversity",
-  "coordinates": [-2.0, 118.0],
-  "bestTime": "April-November (varies by country)",
-  "floraFauna": ["reef-fish", "sharks", "manta-ray", "turtles", "nudibranchs", "macro-crustaceans", "corals", "cephalopods", "seahorse", "pelagics"],
-  "tags": ["biodiversity", "coral reefs", "macro", "big animals", "liveaboard", "tropical"],
-  "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80"
+    "id": "southeast-asia",
+    "name": "Southeast Asia",
+    "type": "major",
+    "description": "The crown jewel of diving with unparalleled biodiversity",
+    "coordinates": [-2.0, 118.0],
+    "bestTime": "April-November (varies by country)",
+    "floraFauna": ["reef-fish", "sharks", "manta-ray", "turtles", "nudibranchs", "macro-crustaceans", "corals", "cephalopods", "seahorse", "pelagics"],
+    "tags": ["biodiversity", "coral reefs", "macro", "big animals", "liveaboard", "tropical"],
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80",
+    "aliases": [
+      "ประเทศไทย"
+    ]
   },
   "indonesia": {
   "id": "indonesia",
@@ -21,6 +24,19 @@
   "floraFauna": ["reef-fish", "sharks", "manta-ray", "turtles", "nudibranchs", "macro-crustaceans", "corals", "cephalopods", "seahorse", "pelagics"],
   "tags": ["biodiversity", "coral reefs", "macro", "big animals", "liveaboard", "tropical"],
   "image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800&q=80"
+    },
+    "cambodia": {
+      "id": "cambodia",
+      "name": "Cambodia",
+      "aliases": ["ព្រះរាជាណាចក្រ​កម្ពុជា"],
+      "type": "country",
+      "parent": "southeast-asia",
+      "description": "Emerging dive destination with tropical islands and coral reefs in the Gulf of Thailand.",
+      "coordinates": [12.5657, 104.9910],
+      "bestTime": "November–May for best conditions.",
+      "floraFauna": ["reef-fish", "corals", "nudibranchs", "macro-crustaceans"],
+      "tags": ["tropical", "islands", "reefs", "emerging"],
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80"
   },
   "gili-islands": {
   "id": "gili-islands",
@@ -82,6 +98,32 @@
   "tags": ["pristine reefs", "macro", "biodiversity", "protected area"],
   "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80"
   },
+    "timor-leste": {
+      "id": "timor-leste",
+      "name": "Timor-Leste",
+      "aliases": ["East Timor", "Timor Leste", "Timor-Leste", "Timor Lorosa'e"],
+      "type": "country",
+      "parent": "southeast-asia",
+      "description": "Pristine reefs, dramatic drop-offs, and world-class macro diving in the Coral Triangle.",
+      "coordinates": [-8.8742, 125.7275],
+      "bestTime": "April–November for best conditions.",
+      "floraFauna": ["reef-fish", "corals", "macro life", "nudibranchs", "turtles"],
+      "tags": ["pristine", "macro", "coral triangle", "drop-offs"],
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80"
+    },
+      "brunei": {
+        "id": "brunei",
+        "name": "Brunei",
+        "aliases": ["Negara Brunei Darussalam"],
+        "type": "country",
+        "parent": "southeast-asia",
+        "description": "Wreck diving, reefs, and macro life on the north coast of Borneo.",
+        "coordinates": [4.5353, 114.7277],
+        "bestTime": "March–October for best conditions.",
+        "floraFauna": ["wrecks", "reef-fish", "macro life", "corals"],
+        "tags": ["wrecks", "reefs", "macro", "Borneo"],
+        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80"
+      },
   "cenderawasih-bay": {
   "id": "cenderawasih-bay",
   "name": "Cenderawasih Bay",
@@ -398,16 +440,17 @@
   },
   
   "vietnam": {
-  "id": "vietnam",
-  "name": "Vietnam",
-  "type": "country",
-  "parent": "southeast-asia",
-  "description": "Emerging destination with tropical reefs, macro life, and island diving.",
-  "coordinates": [16.0, 108.0],
-  "bestTime": "April-September",
-  "floraFauna": ["reef-fish", "macro-crustaceans", "corals", "nudibranchs"],
-  "tags": ["macro", "coral reefs", "easy diving"],
-  "image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800&q=80"
+    "id": "vietnam",
+    "name": "Vietnam",
+    "aliases": ["Việt Nam"],
+    "type": "country",
+    "parent": "southeast-asia",
+    "description": "Emerging destination with tropical reefs, macro life, and island diving.",
+    "coordinates": [16.0, 108.0],
+    "bestTime": "April-September",
+    "floraFauna": ["reef-fish", "macro-crustaceans", "corals", "nudibranchs"],
+    "tags": ["macro", "coral reefs", "easy diving"],
+    "image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800&q=80"
   },
   "nha-trang": {
   "id": "nha-trang",
@@ -552,6 +595,18 @@
   "floraFauna": ["turtles", "jellyfish", "reef-fish", "corals"],
   "tags": ["turtles", "jellyfish", "coral reefs"],
   "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80"
+  },
+  "singapore": {
+    "id": "singapore",
+    "name": "Singapore",
+    "type": "country",
+    "parent": "southeast-asia",
+    "description": "A vibrant city-state with world-class urban reefs and easy access diving.",
+    "coordinates": [1.3521, 103.8198],
+    "bestTime": "April-October",
+    "floraFauna": ["reef-fish", "macro-crustaceans", "nudibranchs", "corals"],
+    "tags": ["urban diving", "easy diving", "macro", "reef-fish"],
+    "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&q=80"
   }
 
 }

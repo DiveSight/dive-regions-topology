@@ -11,7 +11,29 @@
       "kelp forests", "hard corals", "soft corals", "reef sharks", "great white sharks", "ragged-tooth sharks", "sardines", "seals", "turtles", "dolphins", "whales"
     ],
     "tags": ["diverse", "big animals", "kelp", "coral", "wrecks", "seasonal"],
-    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop",
+    "aliases": ["Moçambique"]
+  },
+  "namibia": {
+    "id": "namibia",
+    "name": "Namibia",
+    "type": "country",
+    "parent": "africa",
+    "description": "Remote Atlantic coast, shipwrecks, and cold-water diving at the edge of the Namib Desert.",
+    "coordinates": [-22.9576, 18.4904],
+    "bestTime": "November–April for best conditions.",
+    "floraFauna": ["kelp", "wrecks", "cold-water fish"],
+    "tags": ["atlantic", "wrecks", "remote"],
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80"
+  },
+  "ethiopia": {
+    "id": "ethiopia",
+    "name": "Ethiopia",
+    "aliases": ["ኢትዮጵያ", "إثيوبيا", "ኢትዮጵያ إثيوبيا"],
+    "type": "country",
+    "parent": "africa",
+    "description": "Landlocked country in the Horn of Africa. No direct ocean access, but sometimes appears in data.",
+    "coordinates": [9.145, 40.4897]
   },
   "south-africa": {
     "id": "south-africa",
@@ -128,6 +150,7 @@
   "senegal": {
     "id": "senegal",
     "name": "Senegal",
+      "aliases": ["Sénégal"],
     "type": "country",
     "parent": "africa",
     "description": "Wrecks, reefs, and Atlantic marine life off West Africa.",
@@ -142,6 +165,7 @@
   "cape-verde": {
     "id": "cape-verde",
     "name": "Cape Verde",
+    "aliases": ["Cabo Verde"],
     "type": "country",
     "parent": "africa",
     "description": "Volcanic islands, caves, and big Atlantic pelagics.",

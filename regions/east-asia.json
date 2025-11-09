@@ -8,7 +8,8 @@
     "bestTime": "May–October for subtropical, June–November for temperate.",
     "floraFauna": ["hard corals", "soft corals", "kelp forests", "reef fish", "manta rays", "hammerhead sharks", "humpback whales", "nudibranchs"],
     "tags": ["subtropical", "temperate", "coral", "kelp", "reefs", "macro", "big animals"],
-    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop",
+    "aliases": ["中国", "日本", "臺灣", "대한민국"]
   },
   "japan": {
     "id": "japan",

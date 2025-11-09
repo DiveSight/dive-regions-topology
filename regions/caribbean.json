@@ -11,6 +11,69 @@
     "tags": ["tropical", "coral", "reefs", "wrecks", "colorful", "easy", "warm water"],
     "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
   },
+
+  "nicaragua": {
+      "id": "nicaragua",
+      "name": "Nicaragua",
+      "type": "country",
+      "parent": "caribbean",
+      "description": "Caribbean and Pacific coasts, Corn Islands, and volcanic lakes with unique diving.",
+      "coordinates": [12.8654, -85.2072],
+      "bestTime": "December–April for best conditions.",
+      "floraFauna": ["reef-fish", "corals", "sponges"],
+      "tags": ["corn islands", "reefs", "lakes"],
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
+  },
+
+  "honduras": {
+    "id": "honduras",
+    "name": "Honduras",
+    "type": "country",
+    "parent": "caribbean",
+    "description": "Home to the Bay Islands, whale sharks, and vibrant reefs in the Caribbean Sea.",
+    "coordinates": [15.2, -86.2419],
+    "bestTime": "March–September for best conditions.",
+    "floraFauna": ["reef-fish", "whale-shark", "corals", "sponges"],
+    "tags": ["bay islands", "whale sharks", "reefs"],
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
+  },
+
+  "el-salvador": {
+    "id": "el-salvador",
+    "name": "El Salvador",
+    "type": "country",
+    "parent": "caribbean",
+    "description": "Pacific coast diving with volcanic rock reefs and unique marine life.",
+    "coordinates": [13.7942, -88.8965],
+    "bestTime": "November–April for best conditions.",
+    "floraFauna": ["reef-fish", "corals", "sponges"],
+    "tags": ["pacific", "volcanic", "reefs"],
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
+  },
+
+  "dominica": {
+    "id": "dominica",
+    "name": "Dominica",
+    "type": "country",
+    "parent": "caribbean",
+    "description": "The Nature Island, famous for volcanic pinnacles, healthy reefs, and whale watching.",
+    "coordinates": [15.415, -61.371],
+    "bestTime": "November–May for best conditions.",
+    "floraFauna": ["reef-fish", "corals", "whales", "sponges"],
+    "tags": ["volcanic", "reefs", "whales", "nature"],
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
+  },
+
+  "dominican-republic": {
+    "id": "dominican-republic",
+    "name": "Dominican Republic",
+    "aliases": ["República Dominicana"],
+    "type": "country",
+    "parent": "caribbean",
+    "description": "Caribbean island nation with vibrant reefs, wrecks, and whale watching.",
+    "coordinates": [18.7357, -70.1627]
+  },
+
   "bahamas": {
     "id": "bahamas",
     "name": "Bahamas",
@@ -23,6 +86,7 @@
     "tags": ["sharks", "tropical", "reefs", "blue holes", "big animals"],
     "image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800&h=600&fit=crop"
   },
+
   "cayman-islands": {
     "id": "cayman-islands",
     "name": "Cayman Islands",
@@ -35,9 +99,11 @@
     "tags": ["wall diving", "tropical", "reefs", "clear water", "easy"],
     "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&h=600&fit=crop"
   },
+
   "turks-caicos": {
     "id": "turks-caicos",
-    "name": "Turks & Caicos",
+    "name": "Turks and Caicos Islands",
+      "aliases": ["Turks and Caicos", "Turks & Caicos Islands"],
     "type": "country",
     "parent": "caribbean",
     "description": "Wall diving, humpback whales, and pristine reefs.",
@@ -47,6 +113,7 @@
     "tags": ["wall diving", "tropical", "reefs", "big animals", "pristine"],
     "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&h=600&fit=crop"
   },
+
   "jamaica": {
     "id": "jamaica",
     "name": "Jamaica",
@@ -59,6 +126,33 @@
     "tags": ["tropical", "reefs", "wrecks", "easy", "warm water"],
     "image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=800&h=600&fit=crop"
   },
+
+  "colombia": {
+    "id": "colombia",
+    "name": "Colombia",
+    "type": "country",
+    "parent": "caribbean",
+    "description": "Diving in both the Caribbean and Pacific, with vibrant reefs, islands, and marine life.",
+    "coordinates": [10.0, -74.0],
+    "bestTime": "December–April for Caribbean coast.",
+    "floraFauna": ["reef-fish", "corals", "turtles", "sharks", "sponges"],
+    "tags": ["reefs", "islands", "Caribbean", "Pacific"],
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
+  },
+
+  "bermuda": {
+    "id": "bermuda",
+    "name": "Bermuda",
+    "type": "country",
+    "parent": "caribbean",
+    "description": "Famous for shipwrecks, pink sand beaches, and clear blue water. Technically in the North Atlantic, but often grouped with the Caribbean for diving.",
+    "coordinates": [32.3078, -64.7505],
+    "bestTime": "May–October for warmest water.",
+    "floraFauna": ["wrecks", "hard corals", "soft corals", "reef fish", "parrotfish", "sponges"],
+    "tags": ["wreck diving", "clear water", "reefs", "Atlantic"],
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
+  },
+
   "puerto-rico": {
     "id": "puerto-rico",
     "name": "Puerto Rico",
@@ -67,6 +161,7 @@
     "description": "Caves, walls, and bioluminescent bays.",
     "coordinates": [18.2208, -66.5901]
   },
+
   "usvi": {
     "id": "usvi",
     "name": "U.S. Virgin Islands",
@@ -75,6 +170,7 @@
     "description": "Wrecks, reefs, and easy island hopping.",
     "coordinates": [18.3358, -64.8963]
   },
+
   "bvi": {
     "id": "bvi",
     "name": "British Virgin Islands",
@@ -83,14 +179,7 @@
     "description": "Wreck of the Rhone, coral gardens, and calm anchorages.",
     "coordinates": [18.4207, -64.6401]
   },
-  "dominican-republic": {
-    "id": "dominican-republic",
-    "name": "Dominican Republic",
-    "type": "country",
-    "parent": "caribbean",
-    "description": "Caves, wrecks, and whale watching in Samaná Bay.",
-    "coordinates": [18.7357, -70.1627]
-  },
+
   "cuba": {
     "id": "cuba",
     "name": "Cuba",
@@ -99,6 +188,7 @@
     "description": "Jardines de la Reina, wrecks, and healthy reefs.",
     "coordinates": [21.5218, -77.7812]
   },
+
   "aruba": {
     "id": "aruba",
     "name": "Aruba",
@@ -107,6 +197,7 @@
     "description": "Wrecks, reefs, and year-round warm water.",
     "coordinates": [12.5211, -69.9683]
   },
+
   "bonaire": {
     "id": "bonaire",
     "name": "Bonaire",
@@ -115,6 +206,7 @@
     "description": "Shore diving capital, marine park, and easy access reefs.",
     "coordinates": [12.1784, -68.2385]
   },
+
   "curacao": {
     "id": "curacao",
     "name": "Curaçao",
@@ -123,14 +215,23 @@
     "description": "Colorful reefs, wrecks, and vibrant marine life.",
     "coordinates": [12.1696, -68.9900]
   },
+
   "st-martin": {
     "id": "st-martin",
     "name": "St. Martin / Sint Maarten",
     "type": "country",
     "parent": "caribbean",
     "description": "Wrecks, reefs, and a blend of French and Dutch culture.",
-    "coordinates": [18.0708, -63.0501]
+    "coordinates": [18.0708, -63.0501],
+    "aliases": [
+      "Sint Maarten",
+      "Saint Martin",
+      "St. Maarten",
+      "Saint-Martin",
+      "Sint-Maarten"
+    ]
   },
+
   "st-lucia": {
     "id": "st-lucia",
     "name": "St. Lucia",
@@ -139,6 +240,7 @@
     "description": "Pitons, wall dives, and healthy reefs.",
     "coordinates": [13.9094, -60.9789]
   },
+
   "barbados": {
     "id": "barbados",
     "name": "Barbados",
@@ -147,6 +249,7 @@
     "description": "Wrecks, turtles, and easy shore diving.",
     "coordinates": [13.1939, -59.5432]
   },
+
   "grenada": {
     "id": "grenada",
     "name": "Grenada",
@@ -155,14 +258,27 @@
     "description": "Wreck diving capital of the Caribbean, including the Bianca C.",
     "coordinates": [12.1165, -61.6790]
   },
+
   "st-vincent-grenadines": {
     "id": "st-vincent-grenadines",
-    "name": "St. Vincent & the Grenadines",
+    "name": "Saint Vincent and the Grenadines",
+    "aliases": ["St. Vincent and the Grenadines", "St Vincent and the Grenadines"],
     "type": "country",
     "parent": "caribbean",
     "description": "Critter diving, reefs, and volcanic islands.",
     "coordinates": [13.2528, -61.1971]
   },
+
+  "saint-kitts-nevis": {
+    "id": "saint-kitts-nevis",
+    "name": "Saint Kitts and Nevis",
+    "aliases": ["St. Kitts and Nevis", "St Kitts and Nevis"],
+    "type": "country",
+    "parent": "caribbean",
+    "description": "Wrecks, reefs, and volcanic islands in a twin-island nation.",
+    "coordinates": [17.3578, -62.782998]
+  },
+
   "antigua-barbuda": {
     "id": "antigua-barbuda",
     "name": "Antigua & Barbuda",
@@ -171,6 +287,7 @@
     "description": "Wrecks, reefs, and calm bays.",
     "coordinates": [17.0608, -61.7964]
   },
+
   "guadeloupe": {
     "id": "guadeloupe",
     "name": "Guadeloupe",
@@ -179,6 +296,7 @@
     "description": "Cousteau Reserve, reefs, and French-Caribbean culture.",
     "coordinates": [16.2650, -61.5510]
   },
+
   "martinique": {
     "id": "martinique",
     "name": "Martinique",
@@ -186,5 +304,19 @@
     "parent": "caribbean",
     "description": "Wrecks, reefs, and volcanic landscapes.",
     "coordinates": [14.6415, -61.0242]
+  },
+
+  "trinidad-tobago": {
+    "id": "trinidad-tobago",
+    "name": "Trinidad and Tobago",
+    "aliases": ["Trinidad & Tobago", "Trinidad", "Tobago"],
+    "type": "country",
+    "parent": "caribbean",
+    "description": "Diverse diving from vibrant reefs to drift dives, with both Caribbean and Atlantic influences.",
+    "coordinates": [10.6918, -61.2225],
+    "bestTime": "January–May for best conditions.",
+    "floraFauna": ["corals", "sponges", "reef fish", "turtles", "macro life"],
+    "tags": ["reefs", "drift diving", "Caribbean", "Atlantic"],
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
   }
 }
