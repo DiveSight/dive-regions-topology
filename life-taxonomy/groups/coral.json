@@ -1,10 +1,11 @@
 {
   "group": {
+    "id": "coral",
+    "name": "Coral",
+    "alias": [ "corals", "soft corals", "hard corals","black corals"],
     "category": "reef-builder",
     "color": "red",
-    "description": "Reef-building stony corals and associated framework species.",
-    "group-id": "coral",
-    "name": "Coral"
+    "description": "Reef-building stony corals and associated framework species."
   },
   "entries": [
     {

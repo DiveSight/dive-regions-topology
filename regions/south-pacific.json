@@ -20,7 +20,7 @@
     "description": "World-class wrecks, coral reefs, and WWII history across hundreds of islands.",
     "coordinates": [6.8875, 158.215],
     "bestTime": "December–April for best conditions.",
-    "floraFauna": ["reef-fish", "corals", "sharks", "wrecks"],
+    "floraFauna": ["reef-fish", "corals", "sharks"],
     "tags": ["wrecks", "coral reefs", "islands"],
     "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80"
   },
@@ -33,7 +33,7 @@
     "description": "Famed for Blue Corner, Jellyfish Lake, and pristine reefs with sharks and big pelagics.",
     "coordinates": [7.51498, 134.5825],
     "bestTime": "November–May for best conditions.",
-    "floraFauna": ["sharks", "reef-fish", "corals", "jellyfish", "pelagics"],
+    "floraFauna": ["sharks", "reef-fish", "corals", "jellyfish"],
     "tags": ["pristine", "sharks", "jellyfish", "big animals", "reefs"],
     "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&h=600&fit=crop"
   },

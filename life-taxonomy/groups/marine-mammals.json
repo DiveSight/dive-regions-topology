@@ -1,12 +1,28 @@
 {
   "group": {
+    "id": "marine-mammal",
+    "name": "Marine Mammal",
     "category": "megafauna",
     "color": "green",
-    "description": "Whales and dolphins commonly encountered around dive sites.",
-    "group-id": "marine-mammal",
-    "name": "Marine Mammal"
+    "description": "Whales and dolphins commonly encountered around dive sites."
   },
   "entries": [
+    {
+      "id": "dugong",
+      "name": "Dugong",
+      "alias": ["dugong", "dugongs", "dugong dugon"],
+      "rarity": "rare",
+      "scientific-name": "Dugong dugon",
+      "size": "large",
+      "taxon-id": "dugong-dugon",
+      "behavior": ["grazing", "slow-moving", "solitary"],
+      "description": "Dugongs are large marine mammals related to manatees, found in warm coastal waters of the Indo-Pacific, feeding primarily on seagrass.",
+      "best-months": [1,2,3,4,5,6,7,8,9,10,11,12],
+      "best-regions": ["australia", "indonesia", "east-africa", "red-sea", "indo-pacific"],
+      "depth": {"max": 30, "min": 1},
+      "diet": ["seagrass"],
+      "habitat": ["seagrass-beds", "shallow-coastal-waters"]
+    },
     {
       "id": "bottlenose-dolphin",
       "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&q=80",
@@ -121,8 +137,13 @@
       "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&q=80",
       "name": "Humpback Whale",
       "alias": [
+        "humpback-whale",
+        "humpback-whales",
+        "humpback whales",
         "humpback whale",
-        "humpback"
+        "humpback",
+        "whale",
+        "whales"
       ],
       "rarity": "uncommon",
       "scientific-name": "Megaptera novaeangliae",
@@ -165,7 +186,8 @@
       "name": "Spinner Dolphin",
       "alias": [
         "spinner dolphin",
-        "spinner"
+        "spinner",
+        "dolphin","dolphins"
       ],
       "rarity": "common",
       "scientific-name": "Stenella longirostris",
@@ -209,5 +231,92 @@
         "coastal-waters"
       ]
     }
+      ,
+      {
+        "id": "otter",
+        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80",
+        "name": "Otter",
+        "alias": ["otter", "sea otter", "sea otters", "lutra", "enhydra lutris","otters"],
+        "rarity": "uncommon",
+        "scientific-name": "Enhydra lutris",
+        "size": "medium",
+        "taxon-id": "enhydra-lutris",
+        "behavior": ["playful", "tool-use", "rafting", "diving"],
+        "best-months": [1,2,3,4,5,6,7,8,9,10,11,12],
+        "best-regions": ["north-pacific", "alaska", "california", "russia", "japan"],
+        "depth": {"max": 100, "min": 0},
+        "diet": ["sea urchins", "crustaceans", "mollusks", "fish"],
+        "habitat": ["kelp-forests", "coastal-waters", "estuaries"]
+      }
+      ,
+      {
+        "id": "sea-lion",
+        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80",
+        "name": "Sea Lion",
+        "alias": ["sea lion", "sea lions", "zalophus", "otariinae"],
+        "rarity": "uncommon",
+        "scientific-name": "Zalophus californianus",
+        "size": "large",
+        "taxon-id": "zalophus-californianus",
+        "behavior": ["playful", "colony-forming", "diving", "barking"],
+        "best-months": [1,2,3,4,5,6,7,8,9,10,11,12],
+        "best-regions": ["california", "galapagos", "australia", "south-america"],
+        "depth": {"max": 200, "min": 0},
+        "diet": ["fish", "squid", "octopus", "crustaceans"],
+        "habitat": ["rocky-shores", "kelp-forests", "coastal-waters"]
+      }
+        ,
+        {
+          "id": "seal",
+          "name": "Seal (True Seal)",
+          "alias": [
+            "seal",
+            "seals",
+            "true seal",
+            "true seals",
+            "harbor seals",
+            "harbour seal",
+            "harbour seals",
+            "phocid",
+            "phocids"
+          ],
+          "rarity": "common",
+          "scientific-name": "Phocidae",
+          "size": "medium-large",
+          "taxon-id": "phocidae",
+          "behavior": [
+            "diving",
+            "colony-forming",
+            "resting-on-ice",
+            "hauled-out-on-beaches"
+          ],
+          "best-months": [1,2,3,4,5,6,7,8,9,10,11,12],
+          "best-regions": [
+            "arctic",
+            "antarctic",
+            "temperate-oceans",
+            "subarctic",
+            "subantarctic"
+          ],
+          "depth": {"max": 600, "min": 0},
+          "diet": ["fish", "squid", "crustaceans"],
+          "habitat": ["ice-floes", "rocky-shores", "beaches", "coastal-waters"]
+        }
+        ,
+        {
+          "id": "manatee",
+          "name": "Manatee",
+          "alias": ["manatee", "manatees", "sea cow", "sea cows", "trichechus"],
+          "rarity": "uncommon",
+          "scientific-name": "Trichechus",
+          "size": "large",
+          "taxon-id": "trichechus",
+          "behavior": ["slow-moving", "grazing", "gentle"],
+          "best-months": [1,2,3,4,5,6,7,8,9,10,11,12],
+          "best-regions": ["caribbean", "florida", "amazon", "west-africa"],
+          "depth": {"max": 10, "min": 0},
+          "diet": ["seagrass", "aquatic plants"],
+          "habitat": ["rivers", "estuaries", "coastal-lagoons", "shallow-coastal-waters"]
+        }
   ]
 }

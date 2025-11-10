@@ -1,20 +1,17 @@
 {
   "group": {
+    "id": "ray",
+    "name": "Ray",
+    "alias": ["ray","rays","manta rays","manta","manta ray","manta-ray","manta-rays"],
     "category": "pelagic-megafauna",
     "color": "purple",
-    "description": "Flattened cartilaginous fish including mantas and stingrays.",
-    "group-id": "ray",
-    "name": "Ray"
+    "description": "Flattened cartilaginous fish including mantas and stingrays."
   },
   "entries": [
     {
       "id": "reef-manta-ray",
       "image": "https://images.unsplash.com/photo-1531131141161-ecdfb1858dd1?w=800&q=80",
       "name": "Reef Manta Ray",
-      "alias": [
-        "manta ray",
-        "manta"
-      ],
       "rarity": "uncommon",
       "scientific-name": "Mobula alfredi",
       "size": "very-large",
@@ -198,9 +195,8 @@
       "image": "https://images.unsplash.com/photo-1518831959410-48a934f27672?w=800&q=80",
       "name": "Stingray",
       "alias": [
-        "stingray",
-        "sting ray",
-        "ray"
+        "stingray","stingrays",
+        "sting ray"
       ],
       "rarity": "common",
       "scientific-name": "Dasyatidae",
@@ -391,6 +387,23 @@
         "reefs",
         "lagoons"
       ]
+    }
+    ,
+    {
+      "id": "bat-ray",
+      "name": "Bat Ray",
+      "alias": ["bat ray", "bat rays", "myliobatis californica"],
+      "rarity": "uncommon",
+      "scientific-name": "Myliobatis californica",
+      "size": "large",
+      "taxon-id": "myliobatis-californica",
+      "behavior": ["bottom-feeding", "burrowing", "schooling"],
+      "description": "Bat rays are large rays found along the Pacific coast of North America, recognized by their broad, wing-like pectoral fins and preference for sandy or muddy bottoms.",
+      "best-months": [1,2,3,4,5,6,7,8,9,10,11,12],
+      "best-regions": ["california", "baja-california", "eastern-pacific"],
+      "depth": {"max": 50, "min": 1},
+      "diet": ["mollusks", "crustaceans", "small fish"],
+      "habitat": ["sandy-bottoms", "mudflats", "bays", "estuaries"]
     }
   ]
 }

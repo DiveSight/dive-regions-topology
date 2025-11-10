@@ -23,8 +23,8 @@
         "description": "Alpine lakes, clear water, and unique freshwater diving in the heart of Europe.",
         "coordinates": [46.8182, 8.2275],
         "bestTime": "June–September for warmest water.",
-        "floraFauna": ["freshwater fish", "trout", "perch", "pike", "crayfish"],
-        "tags": ["lake diving", "freshwater", "alpine", "Europe"],
+        "floraFauna": [],
+        "tags": ["lake diving", "alpine", "Europe"],
         "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
       },
     "austria": {
@@ -36,8 +36,8 @@
       "description": "Alpine lakes, crystal-clear freshwater diving, and mountain scenery.",
       "coordinates": [47.5162, 14.5501],
       "bestTime": "June–September for warmest water.",
-      "floraFauna": ["freshwater fish", "trout", "perch", "pike", "crayfish"],
-      "tags": ["lake diving", "freshwater", "alpine", "Europe"],
+      "floraFauna": [],
+      "tags": ["lake diving", "alpine", "Europe"],
       "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
     },
   "mediterranean": {

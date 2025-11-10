@@ -1,10 +1,11 @@
 {
   "group": {
+    "id": "sea-turtle",
+    "name": "Sea Turtle",
+    "alias": ["turtle","turtles"],
     "category": "reptile",
     "color": "emerald",
-    "description": "Marine turtles often seen grazing seagrass or resting on reefs.",
-    "group-id": "sea-turtle",
-    "name": "Sea Turtle"
+    "description": "Marine turtles often seen grazing seagrass or resting on reefs."
   },
   "entries": [
     {
@@ -12,7 +13,7 @@
       "image": "https://images.unsplash.com/photo-1558980664-2506fca6bfc2?w=800&q=80",
       "name": "Green Sea Turtle",
       "rarity": "common",
-      "alias": ["sea turtle"],
+      "alias": ["sea turtle","sea turtles"],
       "scientific-name": "Chelonia mydas",
       "size": "large",
       "taxon-id": "chelonia-mydas",

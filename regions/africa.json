@@ -22,7 +22,7 @@
     "description": "Remote Atlantic coast, shipwrecks, and cold-water diving at the edge of the Namib Desert.",
     "coordinates": [-22.9576, 18.4904],
     "bestTime": "November–April for best conditions.",
-    "floraFauna": ["kelp", "wrecks", "cold-water fish"],
+    "floraFauna": ["kelp" ],
     "tags": ["atlantic", "wrecks", "remote"],
     "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80"
   },
@@ -128,7 +128,7 @@
     "coordinates": [5.1521, 46.1996],
     "bestTime": "October–March for best conditions.",
     "floraFauna": [
-      "hard corals", "soft corals", "reef sharks", "turtles", "pelagics"
+      "hard corals", "soft corals", "reef sharks", "turtles"
     ],
     "tags": ["remote", "pristine", "coral", "tropical", "exploration"],
     "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&h=600&fit=crop"
@@ -142,7 +142,7 @@
     "coordinates": [31.7917, -7.0926],
     "bestTime": "May–October for best conditions.",
     "floraFauna": [
-      "kelp forests", "rocky reefs", "octopus", "atlantic fish"
+      "kelp forests", "octopus"
     ],
     "tags": ["kelp", "atlantic", "rocky reefs", "temperate", "shore diving"],
     "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&h=600&fit=crop"
@@ -157,7 +157,7 @@
     "coordinates": [14.4974, -14.4524],
     "bestTime": "November–May for best visibility.",
     "floraFauna": [
-      "atlantic fish", "wrecks", "hard corals", "soft corals", "dolphins", "turtles"
+       "hard corals", "soft corals", "dolphins", "turtles"
     ],
     "tags": ["atlantic", "wrecks", "reefs", "temperate", "shore diving"],
     "image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=800&h=600&fit=crop"
@@ -172,7 +172,7 @@
     "coordinates": [16.5388, -23.0418],
     "bestTime": "March–November for best diving.",
     "floraFauna": [
-      "volcanic reefs", "pelagic fish", "turtles", "rays", "caves"
+      "turtles", "rays"
     ],
     "tags": ["volcanic", "pelagics", "atlantic", "caves", "adventure"],
     "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"

@@ -79,7 +79,7 @@
     "description": "Remote Pacific islands with dolphins, whales, and endemic species.",
     "coordinates": [27.0947, 142.1917],
     "bestTime": "June–October for best conditions.",
-    "floraFauna": ["dolphins", "whales", "hard corals", "soft corals", "reef fish", "endemic species"],
+    "floraFauna": ["dolphins", "whales", "hard corals", "soft corals", "reef fish"],
     "tags": ["remote", "unique species", "reefs", "big animals", "adventure"],
     "image": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=800&h=600&fit=crop"
   }

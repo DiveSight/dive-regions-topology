@@ -6,7 +6,7 @@
     "description": "The crown jewel of diving with unparalleled biodiversity",
     "coordinates": [-2.0, 118.0],
     "bestTime": "April-November (varies by country)",
-    "floraFauna": ["reef-fish", "sharks", "manta-ray", "turtles", "nudibranchs", "macro-crustaceans", "corals", "cephalopods", "seahorse", "pelagics"],
+    "floraFauna": ["reef-fish", "sharks", "manta-ray", "turtles", "nudibranchs", "macro-crustaceans", "corals", "cephalopods", "seahorse" ],
     "tags": ["biodiversity", "coral reefs", "macro", "big animals", "liveaboard", "tropical"],
     "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80",
     "aliases": [
@@ -21,7 +21,7 @@
   "description": "The epicenter of marine biodiversity",
   "coordinates": [-2.0, 118.0],
   "bestTime": "April-November",
-  "floraFauna": ["reef-fish", "sharks", "manta-ray", "turtles", "nudibranchs", "macro-crustaceans", "corals", "cephalopods", "seahorse", "pelagics"],
+  "floraFauna": ["reef-fish", "sharks", "manta-ray", "turtles", "nudibranchs", "macro-crustaceans", "corals", "cephalopods", "seahorse" ],
   "tags": ["biodiversity", "coral reefs", "macro", "big animals", "liveaboard", "tropical"],
   "image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800&q=80"
     },
@@ -82,7 +82,7 @@
   "description": "Deep sea diving, hammerheads, and historic spice islands.",
   "coordinates": [-5.0, 129.0],
   "bestTime": "October-November",
-  "floraFauna": ["hammerhead", "pelagics", "reef-fish", "corals"],
+  "floraFauna": ["hammerhead", "reef-fish", "corals"],
   "tags": ["hammerheads", "deep walls", "remote", "liveaboard"],
   "image": "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=800&q=80"
   },
@@ -107,7 +107,7 @@
       "description": "Pristine reefs, dramatic drop-offs, and world-class macro diving in the Coral Triangle.",
       "coordinates": [-8.8742, 125.7275],
       "bestTime": "April–November for best conditions.",
-      "floraFauna": ["reef-fish", "corals", "macro life", "nudibranchs", "turtles"],
+      "floraFauna": ["reef-fish", "corals", "nudibranchs", "turtles"],
       "tags": ["pristine", "macro", "coral triangle", "drop-offs"],
       "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80"
     },
@@ -120,7 +120,7 @@
         "description": "Wreck diving, reefs, and macro life on the north coast of Borneo.",
         "coordinates": [4.5353, 114.7277],
         "bestTime": "March–October for best conditions.",
-        "floraFauna": ["wrecks", "reef-fish", "macro life", "corals"],
+        "floraFauna": ["reef-fish",  "corals"],
         "tags": ["wrecks", "reefs", "macro", "Borneo"],
         "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80"
       },
@@ -229,7 +229,7 @@
   "description": "7,641 islands of diving paradise",
   "coordinates": [12.0, 122.0],
   "bestTime": "March-June",
-  "floraFauna": ["reef-fish", "turtles", "sharks", "macro-crustaceans", "corals", "nudibranchs", "pelagics"],
+  "floraFauna": ["reef-fish", "turtles", "sharks", "macro-crustaceans", "corals", "nudibranchs" ],
   "tags": ["biodiversity", "coral reefs", "macro", "big animals", "wrecks"],
   "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80"
   },
@@ -265,7 +265,7 @@
   "description": "UNESCO World Heritage marine park",
   "coordinates": [8.75, 119.75],
   "bestTime": "March-June",
-  "floraFauna": ["reef-fish", "sharks", "turtles", "corals", "pelagics"],
+  "floraFauna": ["reef-fish", "sharks", "turtles", "corals" ],
   "tags": ["big animals", "pristine reefs", "protected area", "liveaboard"],
   "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80"
   },
@@ -532,7 +532,7 @@
   "description": "Famous for pelagic encounters and dramatic walls.",
   "coordinates": [12.25, 97.88],
   "bestTime": "February-April",
-  "floraFauna": ["pelagics", "sharks", "reef-fish", "corals"],
+  "floraFauna": [ "sharks", "reef-fish", "corals"],
   "tags": ["pelagics", "walls", "remote"],
   "image": "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=800&q=80"
   },

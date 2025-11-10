@@ -1,10 +1,10 @@
 {
   "group": {
+    "id": "sea-grass",
+    "name": "Seagrass",
     "category": "flora",
     "color": "light-green",
-    "description": "Flowering marine plants forming meadows in shallow waters.",
-    "group-id": "sea-grass",
-    "name": "Seagrass"
+    "description": "Flowering marine plants forming meadows in shallow waters."
   },
   "entries": [
     {

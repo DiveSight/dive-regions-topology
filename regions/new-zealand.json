@@ -8,7 +8,7 @@
 			"coordinates": [-40.9006, 174.8860],
 			"bestTime": "December–May for best conditions.",
 			"floraFauna": ["kelp forests", "reef fish", "stingrays", "seals", "nudibranchs", "black corals", "octopus"],
-			"tags": ["temperate", "kelp", "reefs", "unique species", "cold", "adventure"],
+			"tags": ["temperate", "kelp", "reefs", "cold", "adventure"],
 			"image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
 		},
 		"poor-knights-islands": {
@@ -20,7 +20,7 @@
 			"coordinates": [-35.4833, 174.7333],
 			"bestTime": "December–May for best conditions.",
 			"floraFauna": ["kelp forests", "reef fish", "stingrays", "nudibranchs", "octopus"],
-			"tags": ["temperate", "kelp", "reefs", "marine reserve", "unique species"],
+			"tags": ["temperate", "kelp", "reefs", "marine reserve"] ,
 			"image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=800&h=600&fit=crop"
 		},
 		"bay-of-islands": {
@@ -43,8 +43,8 @@
 			"description": "Dramatic fjords, black coral, and rare marine species in cold, deep waters.",
 			"coordinates": [-45.417, 167.716],
 			"bestTime": "December–May for best conditions.",
-			"floraFauna": ["black corals", "kelp forests", "octopus", "unique species"],
-			"tags": ["cold", "deep", "unique species", "adventure", "fjords"],
+			"floraFauna": ["black corals", "kelp forests", "octopus"],
+			"tags": ["cold", "deep", "adventure", "fjords"],
 			"image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&h=600&fit=crop"
 		},
 		"white-island": {
@@ -55,8 +55,8 @@
 			"description": "Active volcano diving with geothermal vents and unique underwater landscapes.",
 			"coordinates": [-37.52, 177.18],
 			"bestTime": "December–May for best conditions.",
-			"floraFauna": ["kelp forests", "reef fish", "nudibranchs", "octopus", "unique species"],
-			"tags": ["temperate", "kelp", "reefs", "volcanic", "unique species"],
+			"floraFauna": ["kelp forests", "reef fish", "nudibranchs", "octopus"],
+			"tags": ["temperate", "kelp", "reefs", "volcanic"],
 			"image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=800&h=600&fit=crop"
 		},
 		"stewart-island": {
@@ -67,8 +67,8 @@
 			"description": "Remote southern diving, kelp forests, and rare species.",
 			"coordinates": [-47.0, 168.1],
 			"bestTime": "December–May for best conditions.",
-			"floraFauna": ["kelp forests", "reef fish", "nudibranchs", "octopus", "unique species"],
-			"tags": ["cold", "kelp", "unique species", "remote", "adventure"],
+			"floraFauna": ["kelp forests", "reef fish", "nudibranchs", "octopus"],
+			"tags": ["cold", "kelp", "remote", "adventure"],
 			"image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&h=600&fit=crop"
 		},
 		"goat-island": {
@@ -91,7 +91,7 @@
 			"description": "Kelp forests, wrecks, and diverse marine life at the bottom of the North Island.",
 			"coordinates": [-41.2865, 174.7762],
 			"bestTime": "December–May for best conditions.",
-			"floraFauna": ["kelp forests", "reef fish", "nudibranchs", "octopus", "unique species"],
+			"floraFauna": ["kelp forests", "reef fish", "nudibranchs", "octopus"],
 			"tags": ["temperate", "kelp", "reefs", "wrecks", "diverse"],
 			"image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&h=600&fit=crop"
 		}

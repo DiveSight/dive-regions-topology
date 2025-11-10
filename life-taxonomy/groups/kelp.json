@@ -1,10 +1,11 @@
 {
   "group": {
+    "id": "kelp",
+    "name": "Kelp",
+    "alias": ["kelp forests","kelp"],
     "category": "flora",
     "color": "dark-green",
-    "description": "Large brown algae forming underwater forests.",
-    "group-id": "kelp",
-    "name": "Kelp"
+    "description": "Large brown algae forming underwater forests."
   },
   "entries": [
     {

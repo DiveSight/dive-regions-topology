@@ -1,16 +1,18 @@
 {
   "group": {
+    "id": "shark",
+    "name": "Shark",
+    "alias": ["sharks","reef sharks"],
     "category": "pelagic-megafauna",
     "color": "blue",
-    "description": "Pelagic or reef-dwelling cartilaginous fish, including whale sharks, reef sharks, and hammerheads.",
-    "group-id": "shark",
-    "name": "Shark"
+    "description": "Pelagic or reef-dwelling cartilaginous fish, including whale sharks, reef sharks, and hammerheads."
   },
   "entries": [
     {
       "id": "whale-shark",
       "image": "https://images.unsplash.com/photo-1546500840-ae38253aba9b?w=800&q=80",
       "name": "Whale Shark",
+      "alias": [ "whale sharks", "whale-sharks" ],
       "rarity": "uncommon",
       "scientific-name": "Rhincodon typus",
       "size": "very-large",
@@ -38,7 +40,7 @@
         "id": "hammerhead-shark",
         "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80",
         "name": "Hammerhead Shark",
-        "alias": ["hammerhead shark", "sphyrna lewini", "scalloped hammerhead"],
+        "alias": ["hammerhead","hammerhead shark", "sphyrna lewini", "scalloped hammerhead","hammerhead sharks"],
         "rarity": "uncommon",
         "scientific-name": "Sphyrna lewini",
         "size": "large",
@@ -356,7 +358,8 @@
         "grey nurse shark",
         "carcharias taurus",
         "sand tiger shark",
-        "ragged-tooth shark"
+        "ragged-tooth shark",
+        "ragged-tooth sharks"
       ],
       "rarity": "uncommon",
       "scientific-name": "Carcharias taurus",
@@ -452,5 +455,73 @@
         "sand-flats"
       ]
     }
+      ,
+      {
+        "id": "great-white-shark",
+        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80",
+        "name": "Great White Shark",
+        "alias": ["great white shark", "carcharodon carcharias", "white shark", "great white sharks"],
+        "rarity": "rare",
+        "scientific-name": "Carcharodon carcharias",
+        "size": "very-large",
+        "taxon-id": "carcharodon-carcharias",
+        "behavior": ["apex-predator", "migratory", "surface-hunting"],
+        "best-months": [1,2,3,4,5,6,7,8,9,10,11,12],
+        "best-regions": ["south-africa", "australia", "california", "mediterranean"],
+        "depth": {"max": 1200, "min": 0},
+        "diet": ["seals", "fish", "dolphins", "whales"],
+        "habitat": ["coastal-waters", "open-ocean", "island-chains"]
+      }
+      ,
+      {
+        "id": "leopard-shark",
+        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80",
+        "name": "Leopard Shark",
+        "alias": ["leopard shark", "triakis semifasciata", "leopard sharks"],
+        "rarity": "uncommon",
+        "scientific-name": "Triakis semifasciata",
+        "size": "medium",
+        "taxon-id": "triakis-semifasciata",
+        "behavior": ["bottom-dwelling", "schooling", "coastal"],
+        "best-months": [1,2,3,4,5,6,7,8,9,10,11,12],
+        "best-regions": ["california", "north-america-pacific"],
+        "depth": {"max": 90, "min": 0},
+        "diet": ["crustaceans", "small fish", "mollusks"],
+        "habitat": ["kelp-forests", "bays", "sandy-bottoms"]
+      }
+      ,
+      {
+        "id": "tiger-shark",
+        "name": "Tiger Shark",
+        "alias": ["tiger shark", "tiger sharks", "galeocerdo cuvier"],
+        "rarity": "uncommon",
+        "scientific-name": "Galeocerdo cuvier",
+        "size": "very-large",
+        "taxon-id": "galeocerdo-cuvier",
+        "behavior": ["apex-predator", "solitary", "wide-ranging"],
+        "description": "Tiger sharks are large, powerful sharks recognized by their vertical stripes and broad diet, found in tropical and subtropical waters worldwide.",
+        "best-months": [1,2,3,4,5,6,7,8,9,10,11,12],
+        "best-regions": ["global-tropical", "subtropics-global", "hawaii", "bahamas", "australia"],
+        "depth": {"max": 350, "min": 0},
+        "diet": ["fish", "turtles", "seabirds", "marine-mammals", "crustaceans"],
+        "habitat": ["coastal-waters", "reefs", "open-ocean"]
+      }
+      ,
+      {
+        "id": "thresher-shark",
+        "name": "Thresher Shark",
+        "alias": ["thresher shark", "thresher sharks", "alopias"],
+        "rarity": "rare",
+        "scientific-name": "Alopias",
+        "size": "large",
+        "taxon-id": "alopias",
+        "behavior": ["tail-slapping", "solitary", "deep-diving"],
+        "description": "Thresher sharks are known for their extremely long, whip-like tails used to stun prey, and are found in deep and coastal waters worldwide.",
+        "best-months": [1,2,3,4,5,6,7,8,9,10,11,12],
+        "best-regions": ["global", "indo-pacific", "california", "south-africa"],
+        "depth": {"max": 500, "min": 0},
+        "diet": ["small fish", "squid"],
+        "habitat": ["open-ocean", "deep-waters", "coastal-waters"]
+      }
   ]
 }
